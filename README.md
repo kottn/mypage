@@ -13,7 +13,7 @@ hugo server -D && firefox localhost:1313
 
 ### rewrite draft
 ```
-./rewrite.sh [-f]
+./rewrite.sh [--all]
 ```
 
 ### deploy
