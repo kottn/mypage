@@ -34,5 +34,5 @@ enableEmoji = true
 [params]
     description = "A website built through Hugo and blogdown."
     github_edit = "https://github.com/kottn/mypage/tree/master/content/"
-    footer = "(c) 2017 kottn. | [Github](https://github.com/kottn) | [Twitter](https://twitter.com/kottn_jp)"
+    footer = "(c) 2017 kottn. | [Github](https://github.com/kottn)
 
