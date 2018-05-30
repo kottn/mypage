@@ -14,18 +14,16 @@ toc: false
 ---
 # Demo
 
-### Example `gist`
+## Example `gist`
 {{< gist spf13 7896402 "img.html" >}}
 
-### Example `speaker deck`
+## Example `speaker deck`
 {{< speakerdeck 4e8126e72d853c0060001f97 >}}
 
-### Example `tweet`
+## Example `tweet`
 {{< tweet 971677648727363584 >}}
 
-### Example `youtube`
+## Example `youtube`
 {{< youtube w7Ft2ymGmfc >}}
 
-
-
-Cool!
+cool!
