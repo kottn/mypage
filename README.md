@@ -3,13 +3,14 @@ Source files of my personal page
 
 ### new post
 ```
-./new.sh title
+./new.sh the-title-example [--note]
 ```
 
 ### check draft
 ```
-hugo server -D && firefox localhost:1313
+hugo server -D
 ```
+then connect to `localhost:1313` from browser.
 
 ### rewrite draft
 ```

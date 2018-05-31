@@ -32,14 +32,14 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #e0f4f4; }
+code { background: #dde0ff; }
 pre code { background: none; }
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
-  background: #f9f9f9;
+  background: #FFFFF0;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;

@@ -1,5 +1,5 @@
 #!/bin/bash
-test -n "$1" || echo "usage: ./new.sh <TITLE-without-Space&Extension> [--note]"
+test -n "$1" || echo "usage: ./new.sh <Title-without-Space-&-Extension> [--note]"
 test -n "$1" || exit
 if [[ $2 == "--note" ]]; then
     hugo new note/${1}.md --editor="vim"

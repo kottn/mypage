@@ -7,19 +7,20 @@
 }
 
 body {
-  /* font-family: Arial, "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif; */
   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
-  /* font-size: 90%; */
+  font-size: 85%;
 }
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 85%;
 }
 pre code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 80%;
+  font-size: 85%;
 }
 blockquote {
-  font-family: "Times New Roman", "Yu Mincho", YuMincho;
+  font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
+  font-size: 95%;
 }
 .menu, .article-meta, footer {
   font-family: CANDARA, sans-serif;

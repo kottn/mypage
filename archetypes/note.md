@@ -13,12 +13,13 @@ categories:
   - Movie
   - Music
   - Others
+  - Code
 
 tags:
   - note
   -
 
 draft: true
-toc: false
+toc: true
 ---
 

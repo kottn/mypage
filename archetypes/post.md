@@ -13,6 +13,7 @@ categories:
   - Movie
   - Music
   - Others
+  - Code
 
 tags:
   - post
