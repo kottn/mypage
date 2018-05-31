@@ -12,7 +12,7 @@ tags:
   - post
   - memo
 
-draft: true
+draft: false
 toc: false
 ---
 
