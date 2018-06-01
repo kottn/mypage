@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on kottn.me</title>
-    <link>/categories/code/</link>
-    <description>Recent content in Code on kottn.me</description>
+    <title>Commandline on kottn.me</title>
+    <link>/tags/commandline/</link>
+    <description>Recent content in Commandline on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 31 May 2018 21:25:25 +0900</lastBuildDate>
     
-	<atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

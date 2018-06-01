@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Commandline</title>
+      <link>/tags/commandline/</link>
+      <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
+      
+      <guid>/tags/commandline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Embedcode</title>
       <link>/tags/embedcode/</link>
       <pubDate>Tue, 08 May 2018 19:19:18 +0900</pubDate>
@@ -48,20 +57,11 @@
     </item>
     
     <item>
-      <title>Memo</title>
-      <link>/tags/memo/</link>
+      <title>Quick</title>
+      <link>/tags/quick/</link>
       <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
       
-      <guid>/tags/memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>/tags/post/</link>
-      <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
-      
-      <guid>/tags/post/</guid>
+      <guid>/tags/quick/</guid>
       <description></description>
     </item>
     

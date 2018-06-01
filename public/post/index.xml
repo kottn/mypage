@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>GIF動画を連番のPNGにする</title>
+      <title>GIF動画をPNGに連番で分解する</title>
       <link>/post/2018/05/31/convert-gif-to-png/</link>
       <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
       
       <guid>/post/2018/05/31/convert-gif-to-png/</guid>
-      <description>foo.gifを、bar-0001.png, bar-0002.png,&amp;hellip;みたいに分解したい。 convert +adjoin foo.gif bar-%04d.png convertをつかえば簡</description>
+      <description>foo.gifを、bar-0001.png, bar-0002.png,&amp;hellip;みたいに分解したい。 $ convert +adjoin foo.gif bar-%04d.png convertをつかえば</description>
     </item>
     
     <item>

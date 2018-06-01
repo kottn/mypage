@@ -22,7 +22,11 @@ blockquote {
   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
   font-size: 95%;
 }
-.menu, .article-meta, footer {
+
+/* .menu, .article-meta, footer { */
+/*   font-family: CANDARA, sans-serif; */
+/* } */
+.menu, footer {
   font-family: CANDARA, sans-serif;
 }
 

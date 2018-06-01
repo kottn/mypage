@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GIF動画を連番のPNGにする | kottn.me</title>
+    <title>GIF動画をPNGに連番で分解する | kottn.me</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -26,7 +26,7 @@
     </nav>
 
 <div class="article-meta">
-<h2><span class="title">GIF動画を連番のPNGにする</span></h2>
+<h2><span class="title">GIF動画をPNGに連番で分解する</span></h2>
 
 <h3 class="date">2018/05/31</h3>
 </div>
@@ -34,7 +34,7 @@
 <main>
 <p><code>foo.gif</code>を、<code>bar-0001.png</code>, <code>bar-0002.png</code>,&hellip;みたいに分解したい。</p>
 
-<pre><code>convert +adjoin foo.gif bar-%04d.png
+<pre><code>$ convert +adjoin foo.gif bar-%04d.png
 </code></pre>
 
 <p><code>convert</code>をつかえば簡単だった。</p>

@@ -6,7 +6,6 @@ lastmod: 2018-05-09T20:37:32+09:00
 categories:
   - Others
 tags:
-  - post
   - test
   - japanese
 draft: false
