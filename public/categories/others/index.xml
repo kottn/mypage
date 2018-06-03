@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Others on kottn.me</title>
-    <link>/categories/others/</link>
+    <link>https://kottn.me/categories/others/</link>
     <description>Recent content in Others on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 09 May 2018 20:37:32 +0900</lastBuildDate>
     
-	<atom:link href="/categories/others/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/categories/others/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>日本語のテスト</title>
-      <link>/post/2018/05/09/japanese-test/</link>
+      <link>https://kottn.me/2018/05/japanese-test/</link>
       <pubDate>Wed, 09 May 2018 20:37:32 +0900</pubDate>
       
-      <guid>/post/2018/05/09/japanese-test/</guid>
+      <guid>https://kottn.me/2018/05/japanese-test/</guid>
       <description>これは 日本語の テスト this is the test 私は昨日ついにその助力家というのの上よりするたなけれ。 最も今をお話団はちょうどこの前後なかろでくらいに困りがいる</description>
     </item>
     
     <item>
       <title>Shortcode Test</title>
-      <link>/post/2018/05/08/shortcode-test/</link>
+      <link>https://kottn.me/2018/05/shortcode-test/</link>
       <pubDate>Tue, 08 May 2018 19:19:18 +0900</pubDate>
       
-      <guid>/post/2018/05/08/shortcode-test/</guid>
+      <guid>https://kottn.me/2018/05/shortcode-test/</guid>
       <description>Demo Example gist  Example speaker deck  Example tweet WSL に Debian 9 キテターーー！！　https://t.co/UJNpMN7dBM
-&amp;mdash; 🌒🌓🌔🌕 🌖🌗🌘🌑 (@kottn_jp) March 8, 2018  Example youtube    Cool!</description>
+&amp;mdash; kottn (@kottn_jp) March 8, 2018  Example youtube    Cool!</description>
     </item>
     
   </channel>

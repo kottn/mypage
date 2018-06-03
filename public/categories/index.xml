@@ -2,29 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on kottn.me</title>
-    <link>/categories/</link>
+    <link>https://kottn.me/categories/</link>
     <description>Recent content in Categories on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code</title>
-      <link>/categories/code/</link>
+      <link>https://kottn.me/categories/code/</link>
       <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
       
-      <guid>/categories/code/</guid>
+      <guid>https://kottn.me/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://kottn.me/categories/features/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kottn.me/categories/features/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Others</title>
-      <link>/categories/others/</link>
+      <link>https://kottn.me/categories/others/</link>
       <pubDate>Wed, 09 May 2018 20:37:32 +0900</pubDate>
       
-      <guid>/categories/others/</guid>
+      <guid>https://kottn.me/categories/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Releases</title>
+      <link>https://kottn.me/categories/releases/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kottn.me/categories/releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tranquilpeak</title>
+      <link>https://kottn.me/categories/tranquilpeak/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kottn.me/categories/tranquilpeak/</guid>
       <description></description>
     </item>
     

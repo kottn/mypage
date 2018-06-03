@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commandline on kottn.me</title>
-    <link>/tags/commandline/</link>
+    <link>https://kottn.me/tags/commandline/</link>
     <description>Recent content in Commandline on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 31 May 2018 21:25:25 +0900</lastBuildDate>
     
-	<atom:link href="/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GIF動画をPNGに連番で分解する</title>
-      <link>/post/2018/05/31/convert-gif-to-png/</link>
+      <link>https://kottn.me/2018/05/convert-gif-to-png/</link>
       <pubDate>Thu, 31 May 2018 21:25:25 +0900</pubDate>
       
-      <guid>/post/2018/05/31/convert-gif-to-png/</guid>
+      <guid>https://kottn.me/2018/05/convert-gif-to-png/</guid>
       <description>foo.gifを、bar-0001.png, bar-0002.png,&amp;hellip;みたいに分解したい。 $ convert +adjoin foo.gif bar-%04d.png convertをつかえば</description>
     </item>
     

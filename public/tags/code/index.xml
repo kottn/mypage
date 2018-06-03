@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on kottn.me</title>
-    <link>/tags/code/</link>
+    <link>https://kottn.me/tags/code/</link>
     <description>Recent content in Code on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 08 May 2018 19:19:18 +0900</lastBuildDate>
     
-	<atom:link href="/tags/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shortcode Test</title>
-      <link>/post/2018/05/08/shortcode-test/</link>
+      <link>https://kottn.me/2018/05/shortcode-test/</link>
       <pubDate>Tue, 08 May 2018 19:19:18 +0900</pubDate>
       
-      <guid>/post/2018/05/08/shortcode-test/</guid>
+      <guid>https://kottn.me/2018/05/shortcode-test/</guid>
       <description>Demo Example gist  Example speaker deck  Example tweet WSL に Debian 9 キテターーー！！　https://t.co/UJNpMN7dBM
-&amp;mdash; 🌒🌓🌔🌕 🌖🌗🌘🌑 (@kottn_jp) March 8, 2018  Example youtube    Cool!</description>
+&amp;mdash; kottn (@kottn_jp) March 8, 2018  Example youtube    Cool!</description>
     </item>
     
   </channel>
