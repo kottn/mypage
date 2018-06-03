@@ -1,25 +1,30 @@
 ---
-title: {{ replace .TranslationBaseName "-" " " | title }}
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: ""
 
 date: {{ .Date }}
-lastmod: {{ .Date }}
 
 categories:
-  - Interest
-  - Lifelog
-  - Research
-  - Book
-  - Movie
-  - Music
-  - Others
-  - Code
-
+  - Interest, Lifelog, Research, Book, Movie, Music, Others, Code
+  - Sub-Categories
 tags:
-  - note
   -
+keywords:
+  - tech
+
+comments:       true
+showMeta:       true
+showActions:    true
+#thumbnailImage: //example.com/image.jpg
 
 draft: true
 toc: true
 ---
+
+
+
+<!--more-->
+
+<!-- toc -->
+
 

@@ -1,10 +1,4 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-/* @font-face { */
-/*     font-family: 'CANDARA'; */
-/*     src: url('../fonts/CANDARA.eot'); */
-/*     src: local('CANDARA'), url('../fonts/CANDARA.woff') format('woff'), */
-/*     url('../fonts/CANDARA.ttf') format('truetype'); */
-/* } */
 
 body {
   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;

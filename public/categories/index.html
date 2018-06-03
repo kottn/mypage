@@ -59,9 +59,6 @@
   
     
     
-  
-    
-    
       
       
         
@@ -438,7 +435,7 @@
   
 
 <!DOCTYPE html>
-<html lang="ja-jp">
+<html lang="ja">
   <head>
     
     <meta charset="UTF-8">
@@ -454,15 +451,15 @@
     
 
     
-    <meta name="description" content="Hugo tranquilpeak theme demo">
-    <meta property="og:description" content="Hugo tranquilpeak theme demo">
+    <meta name="description" content="CFD Engineer&#39;s blog">
+    <meta property="og:description" content="CFD Engineer&#39;s blog">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Categories">
     <meta property="og:url" content="/categories/">
     <meta property="og:site_name" content="kottn.me">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="kottn.me">
-    <meta name="twitter:description" content="Hugo tranquilpeak theme demo">
+    <meta name="twitter:description" content="CFD Engineer&#39;s blog">
     
       <meta name="twitter:creator" content="@kottn_jp">
     
@@ -490,6 +487,10 @@
     <link rel="stylesheet" href="https://kottn.me/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
     
     
+      
+        <link rel="stylesheet"  href="https://kottn.me/css/custom_style.css">
+      
+    
 
     
       
@@ -499,7 +500,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="2">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://kottn.me/">kottn.me</a>
@@ -512,23 +513,23 @@
     
     
       
-        <img class="header-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=90" alt="" />
+        <img class="header-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=90" alt="プロフィール画像" />
       
     
     </a>
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="2">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
         <a href="https://kottn.me/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=110" alt="" />
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=110" alt="プロフィール画像" />
         </a>
         <h4 class="sidebar-profile-name">kottn</h4>
         
-          <h5 class="sidebar-profile-bio">Disaster Prevention &amp; Mitigation Engineer. &amp; I Love Chill &amp; Electronic Music. Vaporwave is not dead!</h5>
+          <h5 class="sidebar-profile-bio"><code>Disaster Prevention &amp; Mitigation Engineer / CFD Engineer</code> </br> &mdash; </br> Tohoku University &lsquo;19 </br> NITKC &lsquo;13 </br> &mdash; </br> <a href="https://github.com/kottn">GH 🐙🐱</a> / <a href="https://soundcloud.com/takuma-kotani">SC 📻🎶</a> / <a href="https://speakerdeck.com/kottn">SD 🎩📚</a>  </br> &mdash; </br> Vaporwave is NOT dead !! 🎶</h5>
         
       </div>
     
@@ -540,7 +541,7 @@
     
       <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
-      <span class="sidebar-button-desc">Home</span>
+      <span class="sidebar-button-desc">ホーム</span>
     </a>
   </li>
 
@@ -550,7 +551,7 @@
     
       <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
       
-      <span class="sidebar-button-desc">Categories</span>
+      <span class="sidebar-button-desc">カテゴリー</span>
     </a>
   </li>
 
@@ -560,7 +561,7 @@
     
       <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
       
-      <span class="sidebar-button-desc">Tags</span>
+      <span class="sidebar-button-desc">タグ</span>
     </a>
   </li>
 
@@ -570,7 +571,7 @@
     
       <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
       
-      <span class="sidebar-button-desc">Archives</span>
+      <span class="sidebar-button-desc">アーカイブ</span>
     </a>
   </li>
 
@@ -580,7 +581,7 @@
     
       <i class="sidebar-button-icon fa fa-lg fa-question"></i>
       
-      <span class="sidebar-button-desc">About</span>
+      <span class="sidebar-button-desc">プロフィール</span>
     </a>
   </li>
 
@@ -619,7 +620,7 @@
 
       
 
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="2"
         class="
                hasCoverMetaIn
                ">
@@ -627,12 +628,12 @@
         <div id="categories-archives" class="main-content-wrap">
           <form id="filter-form" action="##">
             <input name="category" type="text" class="form-control input--xlarge"
-                   placeholder="" autofocus="autofocus">
+                   placeholder="カテゴリー検索" autofocus="autofocus">
           </form>
           <h5 class="archive-result text-color-base text-xlarge"
-              data-message-zero=""
-              data-message-one=""
-              data-message-other=""></h5>
+              data-message-zero="見つかりませんでした。"
+              data-message-one="1件のカテゴリーが見つかりました。"
+              data-message-other="{n} 件のカテゴリーが見つかりました。"></h5>
           <section class="boxes">
             
               
@@ -719,7 +720,12 @@
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2018/05/convert-gif-to-png/">GIF動画をPNGに連番で分解する</a><span class="archive-post-date"> - 
-   31, 2018
+  
+  
+  
+  
+    2018-5-31
+  
 </span>
                       </li>
                     
@@ -747,13 +753,23 @@
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2018/05/shortcode-test/">Shortcode Test</a><span class="archive-post-date"> - 
-   8, 2018
+  
+  
+  
+  
+    2018-5-8
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2018/05/japanese-test/">日本語のテスト</a><span class="archive-post-date"> - 
-   9, 2018
+  
+  
+  
+  
+    2018-5-9
+  
 </span>
                       </li>
                     
@@ -781,67 +797,122 @@
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2014/08/video-integrations-showcase/">Video integrations showcase</a><span class="archive-post-date"> - 
-   9, 2014
+  
+  
+  
+  
+    2014-8-9
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2015/05/cover-image-showcase/">Cover image showcase</a><span class="archive-post-date"> - 
-   13, 2015
+  
+  
+  
+  
+    2015-5-13
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2015/03/highlighted-code-showcase/">highlighted code showcase</a><span class="archive-post-date"> - 
-   23, 2015
+  
+  
+  
+  
+    2015-3-23
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-social-section-showcase/">Hidden social section showcase</a><span class="archive-post-date"> - 
-   17, 2014
+  
+  
+  
+  
+    2014-8-17
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2015/05/elements-showcase/">Elements showcase</a><span class="archive-post-date"> - 
-   28, 2015
+  
+  
+  
+  
+    2015-5-28
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2013/01/japanese-test/">日本語テスト</a><span class="archive-post-date"> - 
-   2, 2013
+  
+  
+  
+  
+    2013-1-2
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-pagination-showcase/">Hidden pagination showcase</a><span class="archive-post-date"> - 
-   15, 2014
+  
+  
+  
+  
+    2014-8-15
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2013/02/image-gallery-showcase/">Image gallery showcase</a><span class="archive-post-date"> - 
-   18, 2013
+  
+  
+  
+  
+    2013-2-18
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2013/10/chinese-test/">中文測試</a><span class="archive-post-date"> - 
-   2, 2013
+  
+  
+  
+  
+    2013-10-2
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-tag-section-showcase/">Hidden tag section showcase</a><span class="archive-post-date"> - 
-   16, 2014
+  
+  
+  
+  
+    2014-8-16
+  
 </span>
                       </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://kottn.me/2015/06/welcome-to-tranquilpeak-0.4.3-beta/">Welcome to Tranquilpeak 0.4.3-BETA</a><span class="archive-post-date"> - 
-   15, 2015
+  
+  
+  
+  
+    2015-6-15
+  
 </span>
                       </li>
                     
@@ -858,61 +929,111 @@
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2014/08/video-integrations-showcase/">Video integrations showcase</a><span class="archive-post-date"> - 
-   9, 2014
+  
+  
+  
+  
+    2014-8-9
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2015/05/cover-image-showcase/">Cover image showcase</a><span class="archive-post-date"> - 
-   13, 2015
+  
+  
+  
+  
+    2015-5-13
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2015/03/highlighted-code-showcase/">highlighted code showcase</a><span class="archive-post-date"> - 
-   23, 2015
+  
+  
+  
+  
+    2015-3-23
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-social-section-showcase/">Hidden social section showcase</a><span class="archive-post-date"> - 
-   17, 2014
+  
+  
+  
+  
+    2014-8-17
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2015/05/elements-showcase/">Elements showcase</a><span class="archive-post-date"> - 
-   28, 2015
+  
+  
+  
+  
+    2015-5-28
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2013/01/japanese-test/">日本語テスト</a><span class="archive-post-date"> - 
-   2, 2013
+  
+  
+  
+  
+    2013-1-2
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-pagination-showcase/">Hidden pagination showcase</a><span class="archive-post-date"> - 
-   15, 2014
+  
+  
+  
+  
+    2014-8-15
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2013/02/image-gallery-showcase/">Image gallery showcase</a><span class="archive-post-date"> - 
-   18, 2013
+  
+  
+  
+  
+    2013-2-18
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2013/10/chinese-test/">中文測試</a><span class="archive-post-date"> - 
-   2, 2013
+  
+  
+  
+  
+    2013-10-2
+  
 </span>
       </li>
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2014/08/hidden-tag-section-showcase/">Hidden tag section showcase</a><span class="archive-post-date"> - 
-   16, 2014
+  
+  
+  
+  
+    2014-8-16
+  
 </span>
       </li>
     
@@ -934,7 +1055,12 @@
     
       <li class="archive-post" style="display: list-item;">
         <a class="archive-post-title" href="https://kottn.me/2015/06/welcome-to-tranquilpeak-0.4.3-beta/">Welcome to Tranquilpeak 0.4.3-BETA</a><span class="archive-post-date"> - 
-   15, 2015
+  
+  
+  
+  
+    2015-6-15
+  
 </span>
       </li>
     
@@ -955,7 +1081,7 @@
         </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2018 kottn. 
+    &copy; 2018 kottn. All Rights Reserved
   </span>
 </footer>
 
@@ -967,17 +1093,17 @@
       <i class="fa fa-remove"></i>
     </div>
     
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=110" alt="" />
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/7e0bead4b8073a88c707b89f9abf747a?s=110" alt="プロフィール画像" />
     
     <h4 id="about-card-name">kottn</h4>
     
-      <div id="about-card-bio">Disaster Prevention &amp; Mitigation Engineer. &amp; I Love Chill &amp; Electronic Music. Vaporwave is not dead!</div>
+      <div id="about-card-bio"><code>Disaster Prevention &amp; Mitigation Engineer / CFD Engineer</code> </br> &mdash; </br> Tohoku University &lsquo;19 </br> NITKC &lsquo;13 </br> &mdash; </br> <a href="https://github.com/kottn">GH 🐙🐱</a> / <a href="https://soundcloud.com/takuma-kotani">SC 📻🎶</a> / <a href="https://speakerdeck.com/kottn">SD 🎩📚</a>  </br> &mdash; </br> Vaporwave is NOT dead !! 🎶</div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Data Analyst
+        Ph.D. Student
       </div>
     
     

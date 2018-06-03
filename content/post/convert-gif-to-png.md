@@ -17,6 +17,7 @@ toc: false
 ---
 
 `foo.gif`を、`bar-0001.png`, `bar-0002.png`,...みたいに分解したい。
+
 ```
 $ convert +adjoin foo.gif bar-%04d.png
 ```
