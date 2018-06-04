@@ -1,7 +1,6 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: ""
-
 date: {{ .Date }}
 
 categories:
@@ -15,6 +14,7 @@ keywords:
 comments:       true
 showMeta:       true
 showActions:    true
+#thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 
 draft: true

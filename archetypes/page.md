@@ -13,6 +13,7 @@ keywords:
 comments:       false
 showMeta:       false
 showActions:    false
+#thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 draft: true
 toc: true
