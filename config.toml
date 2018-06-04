@@ -22,7 +22,7 @@ pygmentsUseClasses = true
 
 [author]
   name = "kottn"
-  bio = "[Page TOP](https://kottn.me) </br> - - - </br> `Disaster Prevention & Mitigation Engineer / CFD Engineer` </br> Tohoku University '19 </br> NITKC '13 </br> - - - </br> [GH🐙🐱](https://github.com/kottn) / [SD🎩📚](https://speakerdeck.com/kottn) / [SC📻🎶](https://soundcloud.com/takuma-kotani) </br> - - - </br> 'Vaporwave is NOT dead'"
+  bio = "**Interests:**</br> CFD Engineering, Disaster Prevention & Mitigation Engineering, Tsunami Engineering</br> _Tohoku University ('19) </br> NITKC ('13)_ </br> - - - </br> [GH🐙🐱](https://github.com/kottn) / [SD🎩📚](https://speakerdeck.com/kottn) / [SC📻🎶](https://soundcloud.com/takuma-kotani) </br> ''Vaporwave is still Alive'' </br> - - - </br> [>>> BACK TO HOME <<<](/)"
   job = "Ph.D. Student"
   location = "Japan"
   gravatarEmail = "kota.taku0818@gmail.com"
@@ -65,7 +65,7 @@ pygmentsUseClasses = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/2018/01/about-me"
+  url = "/#about"
 
 [[menu.links]]
   weight = 1
@@ -79,6 +79,12 @@ pygmentsUseClasses = true
 #  name = "Stack Overflow"
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
 #  url = "https://stackoverflow.com/users/636472/kakawait"
+[[menu.links]]
+  weight = 3
+  identifier = "twitter"
+  name = "Twitter"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+  url = "https://twitter.com/kottn_jp"
 
 [[menu.misc]]
   weight = 1
@@ -194,7 +200,8 @@ pygmentsUseClasses = true
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/#about"
+    #url = "/#about"
+    url = "/"
 
   # Customize link of author avatar in sidebar
   # [params.sidebar.profile]

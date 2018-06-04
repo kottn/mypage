@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+slug: ""
 date: {{ .Date }}
 categories:
   - Interest, Lifelog, Research, Book, Movie, Music, Others, Code
@@ -13,5 +14,13 @@ comments:       false
 showMeta:       false
 showActions:    false
 #thumbnailImage: //example.com/image.jpg
+draft: true
+toc: true
 ---
+
+
+
+<!--more-->
+
+<!-- toc -->
 
