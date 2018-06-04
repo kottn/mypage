@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+/* @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css); */
 /* My blockquote */
 blockquote {
   background: white;
@@ -18,22 +18,22 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-
-html {
-  font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
-}
-body {
-  font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif;
-}
-
+/*  */
+/* html { */
+/*   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif; */
+/* } */
+/* body { */
+/*   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif; */
+/* } */
+/* h1, */
+/* h2, */
+/* h3, */
+/* h4, */
+/* h5, */
+/* h6 { */
+/*   font-family: "Noto Sans JP", "Yu Gothic Medium", YuGothic, sans-serif; */
+/* } */
+/*  */
 
 /* 
  *
