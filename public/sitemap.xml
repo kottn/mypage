@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://kottn.me/index.html/rstats/fuga.html</loc>
+    <loc>https://kottn.me/rstats/fuga.html</loc>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/</loc>
+    <loc>https://kottn.me/</loc>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/python/demo.html</loc>
+    <loc>https://kottn.me/python/demo.html</loc>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/tags/0.html</loc>
+    <loc>https://kottn.me/tags/0.html</loc>
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/tags/python.html</loc>
+    <loc>https://kottn.me/tags/python.html</loc>
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/python.html</loc>
+    <loc>https://kottn.me/python.html</loc>
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/rstats.html</loc>
+    <loc>https://kottn.me/rstats.html</loc>
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/index.html/tags.html</loc>
+    <loc>https://kottn.me/tags.html</loc>
     <priority>0</priority>
   </url>
 </urlset>

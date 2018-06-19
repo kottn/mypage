@@ -1,4 +1,4 @@
-baseURL = "https://kottn.me/index.html"
+baseURL = "https://kottn.me/"
 title = "kottn.me"
 theme = "nonblog"
 uglyURLs = true

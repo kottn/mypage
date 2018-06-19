@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on kottn.me</title>
-    <link>https://kottn.me/index.html/</link>
+    <link>https://kottn.me/</link>
     <description>Recent content in About on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>(ɔ) 2017 kottn.</copyright>
     <lastBuildDate>Tue, 19 Jun 2018 17:25:53 +0900</lastBuildDate>
     
-	<atom:link href="https://kottn.me/index.html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fuga</title>
-      <link>https://kottn.me/index.html/rstats/fuga.html</link>
+      <link>https://kottn.me/rstats/fuga.html</link>
       <pubDate>Tue, 19 Jun 2018 17:31:33 +0900</pubDate>
       
-      <guid>https://kottn.me/index.html/rstats/fuga.html</guid>
+      <guid>https://kottn.me/rstats/fuga.html</guid>
       <description>fugafuga</description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>https://kottn.me/index.html/python/demo.html</link>
+      <link>https://kottn.me/python/demo.html</link>
       <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
       
-      <guid>https://kottn.me/index.html/python/demo.html</guid>
+      <guid>https://kottn.me/python/demo.html</guid>
       <description>これはテスト This is the test.
 facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
     </item>
