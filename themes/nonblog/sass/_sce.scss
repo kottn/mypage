@@ -1,0 +1,23 @@
+.cse-search-box {
+  margin: 16px 0 6px auto;
+
+  input {
+    padding: 2px;
+    font-size: 0.8rem;
+    width: 10em;
+    background: #fff;
+
+    &:not(:focus) {
+      background: #fff url("/google_custom_search_watermark.zopfli.png") left no-repeat;
+    }
+  }
+}
+
+.cse-results table {
+  box-shadow: none;
+}
+
+.gsc-adBlock {
+  height: 1rem !important;
+  overflow: hidden;
+}

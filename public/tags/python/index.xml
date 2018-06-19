@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on kottn.me</title>
-    <link>https://kottn.me/index.html/</link>
-    <description>Recent content in About on kottn.me</description>
+    <title>Python on kottn.me</title>
+    <link>https://kottn.me/index.html/tags/python.html</link>
+    <description>Recent content in Python on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>(ɔ) 2017 kottn.</copyright>
-    <lastBuildDate>Tue, 19 Jun 2018 17:25:53 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jun 2018 16:48:54 +0900</lastBuildDate>
     
-	<atom:link href="https://kottn.me/index.html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kottn.me/index.html/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Fuga</title>
-      <link>https://kottn.me/index.html/rstats/fuga.html</link>
-      <pubDate>Tue, 19 Jun 2018 17:31:33 +0900</pubDate>
-      
-      <guid>https://kottn.me/index.html/rstats/fuga.html</guid>
-      <description>fugafuga</description>
-    </item>
     
     <item>
       <title>Demo</title>

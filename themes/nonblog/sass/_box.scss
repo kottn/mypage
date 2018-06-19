@@ -1,0 +1,47 @@
+@mixin box-base {
+  display: block;
+  margin: 8px 0;
+  padding: 6px 10px 6px 40px;
+  position: relative;
+
+  & > p {
+    margin: 4px 0;
+  }
+
+  &::before {
+    font-family: "Ubuntu mono", monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10%;
+    width: 24px;
+    line-height: 1.7;
+  }
+}
+
+.warning {
+  @include box-base;
+
+  background-color: lighten($color-warning, 57%);
+
+  &::before {
+    content: "!";
+    color: $color-warning;
+  }
+}
+
+.note {
+  @include box-base;
+
+  background-color: lighten($color-note, 49%);
+
+  &::before {
+    content: "i";
+    color: $color-note;
+  }
+}

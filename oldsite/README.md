@@ -3,7 +3,7 @@ Source files of my personal page
 
 ### new post
 ```
-hugo new <parent>/<entry-title>.md
+./new.sh the-title-example [--note]
 ```
 
 ### check draft
