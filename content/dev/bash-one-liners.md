@@ -11,13 +11,13 @@ draft = false
 toc = false
 +++
 
-#### **GIF動画をPNGに分解**
-
-```bash
+### **GIF動画をPNGに分解**
+```
 $ convert +adjoin foo.gif bar-%04d.png
 ```
-結果
+**Output:**
 ```
-$ ls
-bar-0001.png  bar-0002.png
+bar-0001.png
+bar-0002.png
+...
 ```

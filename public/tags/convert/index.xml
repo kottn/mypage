@@ -17,8 +17,8 @@
       <pubDate>Wed, 20 Jun 2018 21:38:04 +0900</pubDate>
       
       <guid>https://kottn.me/dev/bash-one-liners.html</guid>
-      <description> GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png 結果
-$ ls bar-0001.png bar-0002.png  </description>
+      <description> GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png  Output:
+bar-0001.png bar-0002.png ...  </description>
     </item>
     
   </channel>

@@ -86,12 +86,16 @@ Bash One-Liners
 
 
 
-<h4 id="gif動画をpngに分解"><strong>GIF動画をPNGに分解</strong></h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ convert +adjoin foo.gif bar-%04d.png</code></pre></div>
-<p>結果</p>
+<h3 id="gif動画をpngに分解"><strong>GIF動画をPNGに分解</strong></h3>
 
-<pre><code>$ ls
-bar-0001.png  bar-0002.png
+<pre><code>$ convert +adjoin foo.gif bar-%04d.png
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<pre><code>bar-0001.png
+bar-0002.png
+...
 </code></pre>
 
 </article>
