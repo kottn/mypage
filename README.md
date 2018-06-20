@@ -17,6 +17,11 @@ then connect to `localhost:1313` from browser.
 ./rewrite.sh [--all]
 ```
 
+### before deploy (for me...)
+```
+./predep.sh
+```
+
 ### deploy
 ```
 ./Deploy.sh

@@ -3,6 +3,7 @@ title = "Demo"
 description = "demo"
 date = 2018-06-19T16:48:54+09:00
 tags = ["python"]
+og_image = "https://avatars.githubusercontent.com/kottn"
 [menu.main]
   parent = "python"
 +++

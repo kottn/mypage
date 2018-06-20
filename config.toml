@@ -21,13 +21,17 @@ og_image = "https://avatars.githubusercontent.com/kottn"
 [taxonomies]
 tag = "tags"
 
-
 [[menu.main]]
-    name = "R stats"
-    identifier = "rstats"
+    name = "R"
+    identifier = "r"
     weight = 10
 
 [[menu.main]]
     name = "Python"
     identifier = "python"
     weight = 20
+
+[[menu.main]]
+    name = "Developer Tools"
+    identifier = "dev"
+    weight = 30
