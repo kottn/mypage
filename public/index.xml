@@ -17,24 +17,25 @@
       <pubDate>Wed, 20 Jun 2018 21:38:04 +0900</pubDate>
       
       <guid>https://kottn.me/dev/bash-one-liners.html</guid>
-      <description>GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png $ ls bar-0001.png bar-0002.</description>
+      <description> GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png 結果
+$ ls bar-0001.png bar-0002.png  </description>
     </item>
     
     <item>
       <title>Fuga</title>
-      <link>https://kottn.me/r/fuga.html</link>
+      <link>https://kottn.me/python/fuga.html</link>
       <pubDate>Tue, 19 Jun 2018 17:31:33 +0900</pubDate>
       
-      <guid>https://kottn.me/r/fuga.html</guid>
+      <guid>https://kottn.me/python/fuga.html</guid>
       <description>fugafuga</description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>https://kottn.me/python/demo.html</link>
+      <link>https://kottn.me/r/demo.html</link>
       <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
       
-      <guid>https://kottn.me/python/demo.html</guid>
+      <guid>https://kottn.me/r/demo.html</guid>
       <description>これはテスト This is the test.
 facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
     </item>

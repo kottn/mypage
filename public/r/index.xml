@@ -6,18 +6,19 @@
     <description>Recent content in Rs on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>(ɔ) 2017 kottn.</copyright>
-    <lastBuildDate>Tue, 19 Jun 2018 17:31:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jun 2018 16:48:54 +0900</lastBuildDate>
     
 	<atom:link href="https://kottn.me/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fuga</title>
-      <link>https://kottn.me/r/fuga.html</link>
-      <pubDate>Tue, 19 Jun 2018 17:31:33 +0900</pubDate>
+      <title>Demo</title>
+      <link>https://kottn.me/r/demo.html</link>
+      <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
       
-      <guid>https://kottn.me/r/fuga.html</guid>
-      <description>fugafuga</description>
+      <guid>https://kottn.me/r/demo.html</guid>
+      <description>これはテスト This is the test.
+facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
     </item>
     
   </channel>

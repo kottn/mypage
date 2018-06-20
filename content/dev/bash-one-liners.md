@@ -7,16 +7,17 @@ og_image = "https://avatars.githubusercontent.com/kottn"
 [menu.main]
   parent = "dev"
 
-draft = true
+draft = false
 toc = false
 +++
-
-<!-- toc -->
 
 #### **GIF動画をPNGに分解**
 
 ```bash
 $ convert +adjoin foo.gif bar-%04d.png
+```
+結果
+```
 $ ls
 bar-0001.png  bar-0002.png
 ```

@@ -2,10 +2,13 @@
 title = "Demo"
 description = "demo"
 date = 2018-06-19T16:48:54+09:00
-tags = ["python"]
+tags = ["demo"]
 og_image = "https://avatars.githubusercontent.com/kottn"
 [menu.main]
-  parent = "python"
+  parent = "r"
+
+draft = false
+toc = false
 +++
 
 # これはテスト

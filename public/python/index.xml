@@ -6,19 +6,18 @@
     <description>Recent content in Pythons on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>(ɔ) 2017 kottn.</copyright>
-    <lastBuildDate>Tue, 19 Jun 2018 16:48:54 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jun 2018 17:31:33 +0900</lastBuildDate>
     
 	<atom:link href="https://kottn.me/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Demo</title>
-      <link>https://kottn.me/python/demo.html</link>
-      <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
+      <title>Fuga</title>
+      <link>https://kottn.me/python/fuga.html</link>
+      <pubDate>Tue, 19 Jun 2018 17:31:33 +0900</pubDate>
       
-      <guid>https://kottn.me/python/demo.html</guid>
-      <description>これはテスト This is the test.
-facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
+      <guid>https://kottn.me/python/fuga.html</guid>
+      <description>fugafuga</description>
     </item>
     
   </channel>
