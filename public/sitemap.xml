@@ -15,6 +15,9 @@
     <priority>0</priority>
   </url>
   <url>
+    <loc>https://kottn.me/</loc>
+  </url>
+  <url>
     <loc>https://kottn.me/about.html</loc>
   </url>
   <url>
@@ -45,10 +48,6 @@
   </url>
   <url>
     <loc>https://kottn.me/tags.html</loc>
-    <priority>0</priority>
-  </url>
-  <url>
-    <loc>https://kottn.me/</loc>
     <priority>0</priority>
   </url>
 </urlset>

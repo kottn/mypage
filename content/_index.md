@@ -1,7 +1,7 @@
 +++
 title = "About"
-[menu.main]
-    weight = 1
+
+
 +++
 
 小谷 拓磨
@@ -31,63 +31,8 @@ Find me on
 
 
 <!-- この一行はこのファイルが "_index.md" である場合のみコメントを外す -->
-<!-- <a href="/about.html" rel="next" class="readmore">Read More</a> -->
+<a href="/about.html" rel="next" class="readmore">Read More</a>
 
 
 
 <!-- ここからはこのファイルが "about.md" である場合のみ残す -->
-## Education
-
-<!-- Doctor of Philosophy in Engineering, '19   -->
-<!-- :   -->
-<!-- Department of Civil and Environmental Engineering,   -->
-<!-- Tohoku University -->
-
-Master of Engineering, '16
-:  
-Department of Civil and Environmental Engineering,  
-Tohoku University
-
-Bachelor of Engineering, '14
-:  
-Advanced Course of Civil and Environmental Engineering,  
-National Institute of Technology, Kisarazu College
-
-Associate degree in Engineering, '07
-:  
-Department of Civil Engineering,  
-National Institute of Technology, Kisarazu College
-
-## Publications
-
-**Papers**
-
-* a
-* b
-
-## Presentations
-
-**Oral**
-
-* a
-* b
-
-**Poster**
-
-* a
-
-**WS**
-
-* a
-* b
-
-## Certifications
-* Industrial Systems Engineering certified by JABEE '14
-* Certification Test for Environmental Speciallists
-* Certified Assistant to Surveyor
-* Real Estate Transaction Authorized Supervisor
-
-## Academic Societies
-* 土木学会 / Japan Society of Civil Engineers
-* 日本計算工学会 / The Japan Society for Computational Engineering and Science
-
