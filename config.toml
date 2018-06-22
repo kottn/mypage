@@ -12,7 +12,7 @@ name = "kottn"
 twitter = "@kottn_jp"
 
 [params]
-logo_src = "logo/kirin.png"
+logo_src = "images/logo.png"
 logo_alt = "LOGO"
 theme_color = "#e08010"
 google_cse = "003631991625593988070:3jspqb_b6wi"
