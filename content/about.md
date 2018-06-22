@@ -6,9 +6,9 @@ title = "About"
 
 小谷 拓磨
 :  
-東北大学大学院 工学研究科 博士課程  
+東北大学大学院 工学研究科 土木工学専攻 博士課程  
 [災害科学国際研究所](http://irides.tohoku.ac.jp/) 地域・都市再生研究部門  
-[寺田研究室](http://www.cae.civil.tohoku.ac.jp/)   
+地域安全工学研究分野 -- [寺田研究室](http://www.cae.civil.tohoku.ac.jp/)
 
 Takuma Kotani
 :  
