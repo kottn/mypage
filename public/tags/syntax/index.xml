@@ -17,7 +17,7 @@
       <pubDate>Mon, 25 Jun 2018 11:03:02 +0900</pubDate>
       
       <guid>https://kottn.me/dev/markdown-syntax.html</guid>
-      <description>kottn.me はHugo製のためMarkdown原稿である（ちなみに記法はGMFではなくBlackfriday でありたまに挙動に混乱する。）本稿では「よく使う(Blackfriday寄りの)Markdown記法 + $\alpha$」をメモ。
+      <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく使う「Blackfridayで使えるMarkdown記法 + $\alpha$」をメモする。
 一般的な構文 箇条書き（□は半角スペース）
 * itemize * itemize□□ hogehogeはfugafugaである。 * itemize□□fugafuga  itemize
  itemize

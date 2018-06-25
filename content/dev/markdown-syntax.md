@@ -11,7 +11,7 @@ draft = false
 toc = false
 +++
 
-kottn.me はHugo製のためMarkdown原稿である（ちなみに記法は[GMF](https://github.github.com/gfm/)ではなく[Blackfriday](https://gohugo.io/content-management/formats/) でありたまに挙動に混乱する。）本稿では「よく使う(Blackfriday寄りの)Markdown記法 + $\alpha$」をメモ。
+本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法は[GMF](https://github.github.com/gfm/)ではなく[Blackfriday](https://gohugo.io/content-management/formats/)である。本稿は記事作成時によく使う「Blackfridayで使えるMarkdown記法 + $\alpha$」をメモする。
 
 ## 一般的な構文
 
