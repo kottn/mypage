@@ -1,14 +1,14 @@
 +++
 title = "About"
 [menu.main]
-    weight = 1
+    weight = 10
 +++
 
 小谷 拓磨
 :  
-東北大学大学院 工学研究科 土木工学専攻 博士課程  
-[災害科学国際研究所](http://irides.tohoku.ac.jp/) 地域・都市再生研究部門  
-地域安全工学研究分野 -- [寺田研究室](http://www.cae.civil.tohoku.ac.jp/)
+東北大学大学院 工学研究科 所属  
+[災害科学国際研究所](http://irides.tohoku.ac.jp/) 地域安全工学研究分野 [寺田研究室](http://www.cae.civil.tohoku.ac.jp/)  博士課程  
+
 
 Takuma Kotani
 :  
@@ -77,13 +77,13 @@ National Institute of Technology, Kisarazu College
 
 * a
 
-## Certifications
-* Industrial Systems Engineering certified by JABEE '14
-* Certification Test for Environmental Speciallists
-* Certified Assistant to Surveyor
-* Real Estate Transaction Authorized Supervisor
+## 資格 / Certifications
+* JABEE認定 / Industrial Systems Engineer certified by JABEE, '14
+* 環境社会検定 / Certification Test for Environmental Specialists
+* 測量士補 / Assistant land surveyor  
+* 宅地建物取引士 / Real Estate Transaction Agent
 
-## Academic Societies
+## 学会活動 / Academic Societies
 * 土木学会 / Japan Society of Civil Engineers
 * 日本計算工学会 / The Japan Society for Computational Engineering and Science
 

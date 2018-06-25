@@ -4,5 +4,5 @@ title = "Research Interests"
     weight = 5
 +++
 
-## スーパーエキセントリック研究
+## すごい研究
 ### ぞうの卵はおいしいぞう

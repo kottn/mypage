@@ -9,14 +9,15 @@ title = "About"
 東北大学大学院 工学研究科 所属  
 [災害科学国際研究所](http://irides.tohoku.ac.jp/) 地域安全工学研究分野 [寺田研究室](http://www.cae.civil.tohoku.ac.jp/)  博士課程  
 
-Kotani, Takuma
+
+Takuma Kotani
 :  
-Ph.D. Student at [Regional Safety Engineering Laboratory](http://irides.tohoku.ac.jp/eng/organization/regeneration/03.html) in [IRIDeS](http://irides.tohoku.ac.jp/eng/),  
-Tohoku University
+Ph.D. Student at Tohoku University,  
+[Regional Safety Eng. Lab.](http://irides.tohoku.ac.jp/eng/organization/regeneration/03.html) in [IRIDeS](http://irides.tohoku.ac.jp/eng/)
 
 E-mail:
 :  
-kottn.jpあgmail.com
+{{< figure src="/images/e-mail.png" width="150" >}}
 
 Find me on
 :  

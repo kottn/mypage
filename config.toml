@@ -24,14 +24,14 @@ tag = "tags"
 [[menu.main]]
     name = "R"
     identifier = "r"
-    weight = 10
+    weight = 50
 
 [[menu.main]]
     name = "Python"
     identifier = "python"
-    weight = 20
+    weight = 60
 
 [[menu.main]]
     name = "Developer Tools"
     identifier = "dev"
-    weight = 30
+    weight = 70
