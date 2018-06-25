@@ -137,11 +137,6 @@ article a:hover {
   text-decoration: underline;
 }
 
-hr {
-  border-style: dashed;
-  color: #ddd;
-}
-
 pre,
 code,
 kbd {
@@ -524,90 +519,52 @@ a svg:hover {
   }
 }
 
-
-.chroma {
-  color: #f8f8f2;
-  background-color: #272822;
-}
-.chroma .err {
-  color: #960050;
-  background-color: #1e0010;
-}
-.chroma .lntd {
-  vertical-align: top;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.chroma .lntable {
-  border-spacing: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: auto;
-  overflow: auto;
-  display: block;
-}
-
-.chroma .hl {
-  display: block;
-  width: 100%;
-  background-color: #ffffcc;
-}
-
-.chroma .lnt {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-  display: block;
-}
-
-.chroma .ln {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
+.chroma .err,
+.chroma .w,
+.chroma .n,
+.chroma .o,
+.chroma .p {
+  color: #444;
 }
 
 .chroma .k,
-.chroma .kc,
 .chroma .kd,
+.chroma .kn,
 .chroma .kp,
 .chroma .kr,
-.chroma .kt,
-.chroma .no {
-  color: #66d9ef;
+.chroma .ow {
+  color: #d73a49;
 }
 
-.chroma .kn,
-.chroma .nt,
-.chroma .o,
-.chroma .ow,
-.chroma .gd {
-  color: #f92672;
+.chroma .kc,
+.chroma .kt,
+.chroma .no,
+.chroma .nd,
+.chroma .ni,
+.chroma .nn,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi,
+.chroma .vm {
+  color: #005cc5;
 }
 
 .chroma .na,
 .chroma .nc,
-.chroma .nd,
-.chroma .ne,
 .chroma .nf,
-.chroma .nx,
-.chroma .gi {
-  color: #a6e22e;
+.chroma .nv,
+.chroma .nx {
+  color: #6f42c1;
 }
 
-.chroma .l,
-.chroma .se,
-.chroma .m,
-.chroma .mb,
-.chroma .mf,
-.chroma .mh,
-.chroma .mi,
-.chroma .il,
-.chroma .mo {
-  color: #ae81ff;
+.chroma .nb,
+.chroma .bp,
+.chroma .ne,
+.chroma .nl,
+.chroma .nt {
+  color: #22863a;
 }
 
-.chroma .ld,
 .chroma .s,
 .chroma .sa,
 .chroma .sb,
@@ -615,13 +572,24 @@ a svg:hover {
 .chroma .dl,
 .chroma .sd,
 .chroma .s2,
+.chroma .se,
 .chroma .sh,
 .chroma .si,
 .chroma .sx,
 .chroma .sr,
 .chroma .s1,
 .chroma .ss {
-  color: #e6db74;
+  color: #032f62;
+}
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo {
+  color: #005cc5;
 }
 
 .chroma .c,
@@ -630,9 +598,8 @@ a svg:hover {
 .chroma .c1,
 .chroma .cs,
 .chroma .cp,
-.chroma .cpf,
-.chroma .gu {
-  color: #75715e;
+.chroma .cpf {
+  color: #6a737d;
 }
 
 .chroma .ge {
@@ -641,4 +608,24 @@ a svg:hover {
 
 .chroma .gs {
   font-weight: bold;
+}
+
+.chroma .gh,
+.chroma .gu {
+  color: #000;
+}
+
+.chroma .gd,
+.chroma .gr,
+.chroma .gi,
+.chroma .go,
+.chroma .gp,
+.chroma .gt,
+.chroma .x {
+  color: #d70;
+}
+
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em;
 }

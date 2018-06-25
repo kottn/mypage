@@ -11,13 +11,11 @@ draft = false
 toc = false
 +++
 
-### **GIF動画をPNGに分解**
-```
-$ convert +adjoin foo.gif bar-%04d.png
-```
-**Output:**
-```
-bar-0001.png
-bar-0002.png
-...
-```
+GIF動画をPNGに分解
+:  
+`$ convert +adjoin foo.gif bar-%04d.png`  
+
+{{% notice note %}}
+分解された画像ファイル `bar-0001.png`,  `bar-0002.png` ... が生成される
+{{% /notice %}}
+

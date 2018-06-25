@@ -84,19 +84,15 @@ Bash One-Liners
 </ul></nav>
 </header>
 
+<dl>
+<dt>GIF動画をPNGに分解</dt>
+<dd>
+<code>$ convert +adjoin foo.gif bar-%04d.png</code><br /></dd>
+</dl>
 
+<div class="notices note" ><p>分解された画像ファイル <code>bar-0001.png</code>,  <code>bar-0002.png</code> &hellip; が生成される</p>
+</div>
 
-<h3 id="gif動画をpngに分解"><strong>GIF動画をPNGに分解</strong></h3>
-
-<pre><code>$ convert +adjoin foo.gif bar-%04d.png
-</code></pre>
-
-<p><strong>Output:</strong></p>
-
-<pre><code>bar-0001.png
-bar-0002.png
-...
-</code></pre>
 
 </article>
 </main>
@@ -123,6 +119,7 @@ bar-0002.png
 <label for="menu-dev" class="active">Developer Tools</label>
 <ul>
 <li class="active"><a href="/dev/bash-one-liners.html">Bash One-Liners</a></li>
+<li><a href="/dev/markdown-syntax.html">Markdown構文</a></li>
 </ul>
 </nav>
 <footer><small>(ɔ) 2017 kottn.</small></footer>
