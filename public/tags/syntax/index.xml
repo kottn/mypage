@@ -19,11 +19,15 @@
       <guid>https://kottn.me/dev/markdown-syntax.html</guid>
       <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく使う「Blackfridayで使えるMarkdown記法 + $\alpha$」をメモする。
 一般的な構文 箇条書き（□は半角スペース）
-* itemize * itemize□□ hogehogeはfugafugaである。 * itemize□□fugafuga  itemize
+In:
+* itemize * itemize□□ hogehogeはfugafugaである。 * itemize□□ゆえにpiyopiyo。 Out:
+ itemize
  itemize
 hogehogeはfugafugaである。  itemize
 ゆえにpiyopiyo。
-  1. enumerate 1. enumerate□□ hogehogeはfugafugaである。 1. enumerate□□ゆえにpiyopiyo。  enumerate
+  In:
+1. enumerate 1. enumerate□□ hogehogeはfugafugaである。 1. enumerate□□ゆえにpiyopiyo。 Out:
+ enumerate
  enumerate
 hogehogeはfugafugaである。  enumerate
 ゆえにpiyopiyo。

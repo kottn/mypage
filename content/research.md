@@ -1,7 +1,7 @@
 +++
 title = "Research Interests"
 [menu.main]
-    weight = 5
+    weight = 10
 +++
 
 ## すごい研究

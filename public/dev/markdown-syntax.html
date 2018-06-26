@@ -30,6 +30,16 @@ MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$']],
     displayMath: [['\\[', '\\]']]
+  },
+  Tex: {
+      equationNumbers: {
+          autoNumber: "AMS"
+      }
+  },
+  "HTML-CSS": {
+      availableFonts: [],
+      preferredFont: null,
+      webFont: "Neo-Euler"
   }
 });
 </script>
@@ -92,13 +102,17 @@ Markdown構文
 
 <h2 id="一般的な構文">一般的な構文</h2>
 
-<p>箇条書き（<code>□</code>は半角スペース）</p>
+<p><strong>箇条書き（<code>□</code>は半角スペース）</strong></p>
+
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md"><span class="k">*</span> itemize<span class="err">
 </span><span class="err"></span>    <span class="k">*</span> itemize□□<span class="err">
 </span><span class="err"></span>    hogehogeはfugafugaである。
 
 <span class="k">*</span> itemize□□<span class="err">
-</span><span class="err"></span>fugafuga</code></pre></div>
+</span><span class="err"></span>ゆえにpiyopiyo。</code></pre></div>
+<p><em>Out:</em></p>
+
 <ul>
 <li><p>itemize</p>
 
@@ -110,12 +124,16 @@ hogehogeはfugafugaである。</li>
 <li><p>itemize<br />
 ゆえにpiyopiyo。</p></li>
 </ul>
+
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md"><span class="k">1.</span> enumerate<span class="err">
 </span><span class="err"></span>    <span class="k">1.</span> enumerate□□<span class="err">
 </span><span class="err"></span>    hogehogeはfugafugaである。
 
 <span class="k">1.</span> enumerate□□<span class="err">
 </span><span class="err"></span>ゆえにpiyopiyo。</code></pre></div>
+<p><em>Out:</em></p>
+
 <ol>
 <li><p>enumerate</p>
 
@@ -130,9 +148,9 @@ hogehogeはfugafugaである。</li>
 
 <h2 id="キーバインド表現">キーバインド表現</h2>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">kbd</span><span class="p"></span><span class="p">&gt;</span>Shift<span class="p">&lt;</span><span class="p">/</span><span class="nt">kbd</span><span class="p">&gt;</span>+<span class="p">&lt;</span><span class="nt">kbd</span><span class="p"></span><span class="p">&gt;</span>A<span class="p">&lt;</span><span class="p">/</span><span class="nt">kbd</span><span class="p">&gt;</span></code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <p><kbd>Shift</kbd>+<kbd>A</kbd></p>
 
@@ -140,12 +158,12 @@ hogehogeはfugafugaである。</li>
 
 <p><strong>Center</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">Name  | Age<span class="err">
 </span><span class="err"></span>---   | ---<span class="err">
 </span><span class="err"></span>Bob   | 27<span class="err">
 </span><span class="err"></span>Alice | 23</code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <table>
 <thead>
@@ -172,11 +190,11 @@ hogehogeはfugafugaである。</li>
 
 <p><strong>Right</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">Keybind in Vim                | Behavior<span class="err">
 </span><span class="err"></span>---:                          | ---<span class="err">
 </span><span class="err"></span>&lt;kbd&gt;Shift&lt;/kbd&gt;+&lt;kbd&gt;G&lt;/kbd&gt; | Go to bottom</code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <table>
 <thead>
@@ -196,13 +214,13 @@ hogehogeはfugafugaである。</li>
 
 <h2 id="定義リスト">定義リスト</h2>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">Cat<span class="err">
 </span><span class="err"></span>: Fluffy animal everyone likes<span class="err">
 </span><span class="err">
 </span><span class="err"></span>Internet<span class="err">
 </span><span class="err"></span>: Vector of transmission for pictures of cats</code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <dl>
 <dt>Cat</dt>
@@ -213,11 +231,11 @@ hogehogeはfugafugaである。</li>
 
 <h2 id="引用">引用</h2>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">This is a footnote.[^1]<span class="err">
 </span><span class="err">
 </span><span class="err"></span>[^1]: The footnote text.</code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <p>This is a footnote.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
 
@@ -225,10 +243,10 @@ hogehogeはfugafugaである。</li>
 
 <p><strong>Inline example</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">When <span class="s">$</span><span class="nb">a </span><span class="nv">\ne</span><span class="nb"> </span><span class="m">0</span><span class="s">$</span>, there are two solutions to <span class="s">$</span><span class="nb">ax^</span><span class="m">2</span><span class="nb"> </span><span class="o">+</span><span class="nb"> bx </span><span class="o">+</span><span class="nb"> c </span><span class="o">=</span><span class="nb"> </span><span class="m">0</span><span class="s">$</span> and they are
 <span class="s">$</span><span class="nb">x </span><span class="o">=</span><span class="nb"> {</span><span class="o">-</span><span class="nb">b </span><span class="nv">\pm</span><span class="nb"> </span><span class="nv">\sqrt</span><span class="nb">{b^</span><span class="m">2</span><span class="o">-</span><span class="m">4</span><span class="nb">ac} </span><span class="nv">\over</span><span class="nb"> </span><span class="m">2</span><span class="nb">a}.</span><span class="s">$</span></code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <p>When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$</p>
@@ -237,7 +255,7 @@ $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$</p>
 
 <p><strong>Align example</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">* Navier-Stokes equation
 
 <span class="k">\begin</span><span class="nb">{</span>align<span class="nb">}</span>
@@ -251,7 +269,7 @@ $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$</p>
 <span class="k">\begin</span><span class="nb">{</span>align<span class="nb">}</span>
   <span class="k">\nabla</span>  <span class="k">\cdot</span> <span class="nb">{</span><span class="k">\mathbf</span><span class="nb">{</span>u<span class="nb">}}</span> = 0
 <span class="k">\end</span><span class="nb">{</span>align<span class="nb">}</span></code></pre></div>
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <ul>
 <li>Navier-Stokes equation</li>
@@ -279,14 +297,14 @@ $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$</p>
 
 <p><strong>無印の場合</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>```
 This is a plain text.
 ```
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <pre><code>This is a plain text.
 </code></pre>
@@ -295,14 +313,14 @@ This is a plain text.
 
 <p><strong>R言語を指定する場合</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>```r
 print(&quot;Hello World!&quot;)
 ```
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 <div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kp">print</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span></code></pre></div>
 <hr />
 
@@ -375,14 +393,14 @@ print(&quot;Hello World!&quot;)
 
 <p><strong>注釈文</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>{{％ notice note ％}}
 これは注釈。
 {{％ /notice ％}}
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <div class="notices note" ><p>これは注釈。</p>
 </div>
@@ -392,14 +410,14 @@ print(&quot;Hello World!&quot;)
 
 <p><strong>警告文</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>{{％ notice warning ％}}
 これは警告。
 {{％ /notice ％}}
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <div class="notices warning" ><p>これは警告。</p>
 </div>
@@ -409,16 +427,16 @@ print(&quot;Hello World!&quot;)
 
 <p><strong>赤</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>{{％ red ％}}
 { これは赤文字。
 {{％ /red ％}} 
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 
-<div style="color:crimson;">
+<div style="color:#e55937;">
 <p>これは赤文字。</p>
 
 </div>
@@ -428,14 +446,14 @@ print(&quot;Hello World!&quot;)
 
 <p><strong>青</strong></p>
 
-<p>In:</p>
+<p><em>In:</em></p>
 
 <pre><code>{{％ blue ％}}
 これは青文字。
 {{％ /blue ％}} 
 </code></pre>
 
-<p>Out:</p>
+<p><em>Out:</em></p>
 
 <div style="color:royalblue;">
 <p>これは青文字。</p>
@@ -457,9 +475,9 @@ print(&quot;Hello World!&quot;)
 
 <nav class="menu">
 
-<div><a href="/research.html">Research Interests</a></div>
-
 <div><a href="/about.html">About</a></div>
+
+<div><a href="/research.html">Research Interests</a></div>
 
 <input type="checkbox" id="menu-r">
 <label for="menu-r">R</label>
@@ -479,7 +497,13 @@ print(&quot;Hello World!&quot;)
 <li><a href="/dev/bash-one-liners.html">Bash One-Liners</a></li>
 <li class="active"><a href="/dev/markdown-syntax.html">Markdown構文</a></li>
 </ul>
+
+<div><a href="/tags.html">Tags</a></div>
+
+<a class="twitter-timeline" height="300px" data-chrome="nofooter" href="https://twitter.com/kottn_jp?ref_src=twsrc%5Etfw">Tweets by kottn_jp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </nav>
+
 <footer><small>(ɔ) 2017 kottn.</small></footer>
 </body>
 </html>

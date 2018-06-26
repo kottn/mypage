@@ -4,16 +4,10 @@ title = "About"
 
 +++
 
-小谷 拓磨
+kottn
 :  
-東北大学大学院 工学研究科 所属  
-[災害科学国際研究所](http://irides.tohoku.ac.jp/) 地域安全工学研究分野 [寺田研究室](http://www.cae.civil.tohoku.ac.jp/)  博士課程  
-
-
-Takuma Kotani
-:  
-Ph.D. Student at Tohoku University,  
-[Regional Safety Eng. Lab.](http://irides.tohoku.ac.jp/eng/organization/regeneration/03.html) in [IRIDeS](http://irides.tohoku.ac.jp/eng/)
+東北大学 [災害科学国際研究所](http://irides.tohoku.ac.jp/) 博士課程  
+Ph.D. Student at [IRIDeS](http://irides.tohoku.ac.jp/eng/), Tohoku Univ.
 
 E-mail:
 :  

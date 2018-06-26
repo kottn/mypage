@@ -15,21 +15,30 @@ toc = false
 
 ## 一般的な構文
 
-箇条書き（`□`は半角スペース）
+**箇条書き（`□`は半角スペース）**
+
+*In:*
+
 ```md
 * itemize
     * itemize□□
     hogehogeはfugafugaである。
 
 * itemize□□
-fugafuga
+ゆえにpiyopiyo。
 ```
+
+*Out:*
+
 * itemize
     * itemize  
     hogehogeはfugafugaである。
 
 * itemize  
 ゆえにpiyopiyo。
+
+
+*In:*
 
 ```md
 1. enumerate
@@ -40,6 +49,9 @@ fugafuga
 ゆえにpiyopiyo。
 
 ```
+
+*Out:*
+
 1. enumerate
     1. enumerate  
     hogehogeはfugafugaである。
@@ -50,20 +62,20 @@ fugafuga
 
 ## キーバインド表現
 
-In:
+*In:*
 
 ```html
 <kbd>Shift</kbd>+<kbd>A</kbd>
 ```
 
-Out:
+*Out:*
 
 <kbd>Shift</kbd>+<kbd>A</kbd>
 
 ## 表
 **Center**
 
-In:
+*In:*
 
 ```md
 Name  | Age
@@ -74,7 +86,7 @@ Alice | 23
 ```
 
 
-Out:
+*Out:*
 
 
 Name  | Age
@@ -86,7 +98,7 @@ Alice | 23
 
 **Right**
 
-In:
+*In:*
 
 ```md
 Keybind in Vim                | Behavior
@@ -96,7 +108,7 @@ Keybind in Vim                | Behavior
 ```
 
 
-Out:
+*Out:*
 
 
 Keybind in Vim | Behavior
@@ -105,7 +117,7 @@ Keybind in Vim | Behavior
 
 
 ## 定義リスト
-In:
+*In:*
 
 ```md
 Cat
@@ -115,7 +127,7 @@ Internet
 : Vector of transmission for pictures of cats
 ```
 
-Out:
+*Out:*
 
 Cat
 : Fluffy animal everyone likes
@@ -124,7 +136,7 @@ Internet
 : Vector of transmission for pictures of cats
 
 ## 引用
-In:
+*In:*
 
 ```md
 This is a footnote.[^1]
@@ -132,7 +144,7 @@ This is a footnote.[^1]
 [^1]: The footnote text.
 ```
 
-Out:
+*Out:*
 
 This is a footnote.[^1]
 
@@ -141,14 +153,14 @@ This is a footnote.[^1]
 ## $\rm{\LaTeX}$構文 (MathJax)
 **Inline example**
 
-In:
+*In:*
 
 ```tex
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$
 ```
 
-Out:
+*Out:*
 
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$
@@ -157,7 +169,7 @@ $x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$
 
 **Align example**
 
-In:
+*In:*
 
 ```tex
 * Navier-Stokes equation
@@ -175,7 +187,7 @@ In:
 \end{align}
 ```
 
-Out:
+*Out:*
 
 * Navier-Stokes equation
 
@@ -200,14 +212,14 @@ Out:
 
 **無印の場合**
 
-In:
+*In:*
 
 
     ```
     This is a plain text.
     ```
 
-Out:
+*Out:*
 
 ```
 This is a plain text.
@@ -218,14 +230,14 @@ This is a plain text.
 
 **R言語を指定する場合**
 
-In:
+*In:*
 
 
     ```r
     print("Hello World!")
     ```
 
-Out:
+*Out:*
 
 ```r
 print("Hello World!")
@@ -254,7 +266,7 @@ TeX               | `tex`
 ### 案内文を入れる（※全角の`％`は半角の`%`に置き換える）
 **注釈文**
 
-In:
+*In:*
 
 ```
 {{％ notice note ％}}
@@ -262,7 +274,7 @@ In:
 {{％ /notice ％}}
 ```
 
-Out:
+*Out:*
 
 {{% notice note %}}
 これは注釈。
@@ -272,7 +284,7 @@ Out:
 
 **警告文**
 
-In:
+*In:*
 
 ```
 {{％ notice warning ％}}
@@ -280,7 +292,7 @@ In:
 {{％ /notice ％}}
 ```
 
-Out:
+*Out:*
 
 {{% notice warning %}}
 これは警告。
@@ -291,7 +303,7 @@ Out:
 
 **赤**
 
-In:
+*In:*
 
 ```
 {{％ red ％}}
@@ -299,7 +311,7 @@ In:
 {{％ /red ％}} 
 ```
 
-Out:
+*Out:*
 
 {{% red %}}
 これは赤文字。
@@ -309,7 +321,7 @@ Out:
 
 **青**
 
-In:
+*In:*
 
 ```
 {{％ blue ％}}
@@ -317,7 +329,7 @@ In:
 {{％ /blue ％}} 
 ```
 
-Out:
+*Out:*
 
 {{% blue %}}
 これは青文字。

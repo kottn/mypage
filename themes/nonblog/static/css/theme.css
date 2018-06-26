@@ -38,7 +38,8 @@ body {
 }
 
 a {
-  color: #429131;
+  /* color: #429131; */
+  color: #e55937;
   text-decoration: none;
 }
 
@@ -342,7 +343,8 @@ a svg:hover {
 }
 
 .menu label.active::after {
-  color: #429131;
+  /* color: #429131; */
+  color: #e55937;
 }
 
 .menu input {
@@ -370,14 +372,17 @@ a svg:hover {
 
 .menu .active {
   font-weight: bold;
-  color: #429131;
-  border-color: #429131;
+  /* color: #429131; */
+  /* border-color: #429131; */
+  color: #e55937;
+  border-color: #e55937;
 }
 
 .menu label:hover,
 .menu a:hover {
   cursor: pointer;
-  color: #429131;
+  /* color: #429131; */
+  color: #e55937;
   background-color: #f8fcf8;
 }
 
@@ -525,6 +530,10 @@ a svg:hover {
 }
 
 
+/*======================================================
+ * $ hugo gen chromastyles --style=monokai >> this_file
+ *======================================================
+ */
 .chroma {
   color: #f8f8f2;
   background-color: #272822;

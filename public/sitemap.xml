@@ -65,4 +65,7 @@
     <loc>https://kottn.me/tags.html</loc>
     <priority>0</priority>
   </url>
+  <url>
+    <loc>https://kottn.me/tags.html</loc>
+  </url>
 </urlset>
