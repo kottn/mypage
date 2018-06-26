@@ -77,9 +77,8 @@ facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39
       
       <guid>https://kottn.me/about.html</guid>
       <description>kottn  東北大学 災害科学国際研究所 博士課程
-Ph.D. Student at IRIDeS, Tohoku Univ. E-mail:     Find me on       Read More -- Education  Master of Engineering, &amp;lsquo;16  Department of Civil and Environmental Engineering,
-Tohoku University Bachelor of Engineering, &amp;lsquo;14  Advanced Course of Civil and Environmental Engineering,
-National Institute of Technology, Kisarazu College Associate degree in Engineering, &amp;lsquo;07  Department of Civil Engineering,</description>
+Ph.D. Student at IRIDeS, Tohoku University Interests:  CAE(CFD), Tsunami Engineering and Statistics to develop effective disaster prevention and mitigation system.
+ Skills:  Fortran, GMT, POV-Ray, Bash, TeX, R, Python, TensorFlow, Keras, OpenFOAM, QGIS E-mail:     Find me on       Read More -- Education  Master of Engineering, &amp;lsquo;16  Department of Civil and Environmental Engineering,</description>
     </item>
     
     <item>
@@ -89,15 +88,6 @@ National Institute of Technology, Kisarazu College Associate degree in Engineeri
       
       <guid>https://kottn.me/search.html</guid>
       <description> (function() { var cx = &#39;003631991625593988070:3jspqb_b6wi&#39;; var gcse = document.createElement(&#39;script&#39;); gcse.type = &#39;text/javascript&#39;; gcse.async = true; gcse.src = &#39;https://cse.google.com/cse.js?cx=&#39; + cx; var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(gcse, s); })();    </description>
-    </item>
-    
-    <item>
-      <title>Research Interests</title>
-      <link>https://kottn.me/research.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kottn.me/research.html</guid>
-      <description> すごい研究 ぞうの卵はおいしいぞう </description>
     </item>
     
     <item>

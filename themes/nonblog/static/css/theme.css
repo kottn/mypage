@@ -271,6 +271,10 @@ blockquote::before {
   color: #1da1f2;
 }
 
+.soundcloud {
+  color: #ff7700;
+}
+
 a svg:hover {
   transform: scale(1.3);
 }
@@ -382,8 +386,13 @@ a svg:hover {
 .menu a:hover {
   cursor: pointer;
   /* color: #429131; */
+  /* background-color: #f8fcf8; */
   color: #e55937;
-  background-color: #f8fcf8;
+  background-color: #fcf0ec;
+}
+
+.menu .twitter-timeline {
+  background-color: #f9f7f7;
 }
 
 .cse-search-box {
