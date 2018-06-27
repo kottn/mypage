@@ -11,16 +11,15 @@ Ph.D. Student at [IRIDeS](http://irides.tohoku.ac.jp/eng/), Tohoku University
 
 Interests:
 :  
-CAE(CFD), Tsunami Engineering and Statistics to develop effective disaster prevention and mitigation system.  
+CAE(CFD), and Statistical engineering for developing effective disaster prevention and mitigation system against Tsunami.  
 
 Skills:
 :  
-Fortran, GMT, POV-Ray, Bash, TeX, R, Python, TensorFlow, Keras, OpenFOAM, QGIS
+Fortran, GMT, POV-Ray, R, Python, TensorFlow, Keras, OpenFOAM, QGIS
 
 E-mail:
 :  
 {{< figure src="/images/e-mail.png" width="150" >}}
-
 
 Find me on
 :  
@@ -36,7 +35,3 @@ Find me on
 
 <!-- この一行はこのファイルが "_index.md" である場合のみコメントを外す -->
 <a href="/about.html" rel="next" class="readmore">Read More</a>
-
-
-
-<!-- ここからはこのファイルが "about.md" である場合のみ残す -->

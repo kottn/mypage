@@ -11,11 +11,11 @@ Ph.D. Student at [IRIDeS](http://irides.tohoku.ac.jp/eng/), Tohoku University
 
 Interests:
 :  
-CAE(CFD), Tsunami Engineering and Statistics to develop effective disaster prevention and mitigation system.  
+CAE(CFD), and Statistical engineering for developing effective disaster prevention and mitigation system against Tsunami.  
 
 Skills:
 :  
-Fortran, GMT, POV-Ray, Bash, TeX, R, Python, TensorFlow, Keras, OpenFOAM, QGIS
+Fortran, GMT, POV-Ray, R, Python, TensorFlow, Keras, OpenFOAM, QGIS
 
 E-mail:
 :  
@@ -63,5 +63,10 @@ National Institute of Technology, Kisarazu College
 
 ## I ❤
 * Debian 💻
-* Vaporwave, Chill, Electronic ♬
-* 猫下僕。
+* `$ bash`
+* $\rm\LaTeX$
+* 
+<a href="https://soundcloud.com/kottn_jp" class="soundcloud" title="ふんふん">
+<i class="fab fa-fw fa-lg fa-soundcloud"></i></a>
+Vaporwave, Chill, Electronic ♬
+* 猫（下僕。）
