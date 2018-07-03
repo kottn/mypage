@@ -22,6 +22,8 @@ E-mail:
 Find me on
 : <a rel="me" href="https://github.com/kottn" class="github" title="かたかた">
   <i class="fab fa-fw fa-lg fa-github"></i></a>
+  <a href="https://stackoverflow.com/users/10020091/kottn" class="stackoverflow" title="ほうほう">
+  <i class="fab fa-fw fa-lg fa-stack-overflow"></i></a>
   <a rel="me" href="https://twitter.com/kottn_jp" class="twitter" title="ぼそぼそ">
   <i class="fab fa-fw fa-lg fa-twitter"></i></a>
   <a href="https://www.amazon.co.jp/wishlist/3JEW2PF70YQX2" class="amazon" title="ください">
