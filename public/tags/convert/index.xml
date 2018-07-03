@@ -5,6 +5,7 @@
     <link>https://kottn.me/tags/convert.html</link>
     <description>Recent content in Convert on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <copyright>(ɔ) 2017 kottn.</copyright>
     <lastBuildDate>Wed, 20 Jun 2018 21:38:04 +0900</lastBuildDate>
     
@@ -17,9 +18,7 @@
       <pubDate>Wed, 20 Jun 2018 21:38:04 +0900</pubDate>
       
       <guid>https://kottn.me/dev/bash-one-liners.html</guid>
-      <description> GIF動画をPNGに分解  $ convert +adjoin foo.gif bar-%04d.png
-  分解された画像ファイル bar-0001.png, bar-0002.png &amp;hellip; が生成される
- </description>
+      <description>GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png 分解された画像ファイル bar-0001.png, bar-0002.png &amp;hellip; が生成される</description>
     </item>
     
   </channel>

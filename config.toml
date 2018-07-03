@@ -1,6 +1,9 @@
 baseURL = "https://kottn.me/"
 title = "kottn.me"
 theme = "nonblog"
+languageCode = "ja"
+hasCJKLanguage = true
+noTimes = true
 uglyURLs = true
 pygmentsCodefences = true
 pygmentsUseClasses = true
@@ -12,8 +15,9 @@ name = "kottn"
 twitter = "@kottn_jp"
 
 [params]
+uglyURLs = true
 logo_src = "images/logo.png"
-logo_alt = "LOGO"
+logo_alt = "kottn"
 theme_color = "#e08010"
 google_cse = "003631991625593988070:3jspqb_b6wi"
 og_image = "https://avatars.githubusercontent.com/kottn"
@@ -24,14 +28,16 @@ tag = "tags"
 [[menu.main]]
     name = "R"
     identifier = "r"
-    weight = 50
-
+    weight = 10
 [[menu.main]]
     name = "Python"
     identifier = "python"
-    weight = 60
-
+    weight = 20
 [[menu.main]]
     name = "Developer Tools"
     identifier = "dev"
     weight = 70
+[[menu.main]]
+    name = "Tags"
+    url = "/tags.html"
+    weight = 100

@@ -415,7 +415,7 @@ a svg:hover {
 }
 
 .gsc-adBlock {
-  height: 1rem !important;
+  height: 0rem !important;
   overflow: hidden;
 }
 

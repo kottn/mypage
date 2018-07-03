@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on kottn.me</title>
+    <title>kottn.me</title>
     <link>https://kottn.me/</link>
-    <description>Recent content in About on kottn.me</description>
+    <description>Recent content on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <copyright>(ɔ) 2017 kottn.</copyright>
     <lastBuildDate>Mon, 25 Jun 2018 11:03:02 +0900</lastBuildDate>
     
@@ -12,32 +13,50 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://kottn.me/about.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kottn.me/about.html</guid>
+      <description>&lt;dl&gt;
+&lt;dt&gt;kottn&lt;/dt&gt;
+&lt;dd&gt;東北大学 &lt;a href=&#34;http://irides.tohoku.ac.jp/&#34;&gt;災害科学国際研究所&lt;/a&gt; 博士課程&lt;br /&gt;
+Ph.D. Student at &lt;a href=&#34;http://irides.tohoku.ac.jp/eng/&#34;&gt;IRIDeS&lt;/a&gt;, Tohoku University&lt;/dd&gt;
+&lt;dt&gt;Interests:&lt;/dt&gt;
+&lt;dd&gt;CAE/CFD, Statistics, DL&lt;br /&gt;
+for tsunami disaster mitigation systems&lt;/dd&gt;
+&lt;dt&gt;Skills:&lt;/dt&gt;
+&lt;dd&gt;Fortran, GMT, POV-Ray, R, Python, TensorFlow, Keras, OpenFOAM, QGIS&lt;/dd&gt;
+&lt;dt&gt;E-mail:&lt;/dt&gt;
+&lt;dd&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;https://kottn.me/images/e-mail.png&#34; width=&#34;150&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Find me on&lt;/dt&gt;
+&lt;dd&gt;&lt;a rel=&#34;me&#34; href=&#34;https://github.com/kottn&#34; class=&#34;github&#34; title=&#34;かたかた&#34;&gt;
+&lt;i class=&#34;fab fa-fw fa-lg fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a rel=&#34;me&#34; href=&#34;https://twitter.com/kottn_jp&#34; class=&#34;twitter&#34; title=&#34;ぼそぼそ&#34;&gt;
+&lt;i class=&#34;fab fa-fw fa-lg fa-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/wishlist/3JEW2PF70YQX2&#34; class=&#34;amazon&#34; title=&#34;ください&#34;&gt;
+&lt;i class=&#34;fab fa-fw fa-lg fa-amazon&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=&#34;https://soundcloud.com/kottn_jp&#34; class=&#34;soundcloud&#34; title=&#34;ふんふん&#34;&gt;
+&lt;i class=&#34;fab fa-fw fa-lg fa-soundcloud&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Markdown構文</title>
       <link>https://kottn.me/dev/markdown-syntax.html</link>
       <pubDate>Mon, 25 Jun 2018 11:03:02 +0900</pubDate>
       
       <guid>https://kottn.me/dev/markdown-syntax.html</guid>
-      <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく使う「Blackfridayで使えるMarkdown記法 + $\alpha$」をメモする。
-一般的な構文 箇条書き（□は半角スペース）
-In:
-* itemize * itemize□□ hogehogeはfugafugaである。 * itemize□□ゆえにpiyopiyo。 Out:
- itemize
- itemize
-hogehogeはfugafugaである。  itemize
-ゆえにpiyopiyo。
-  In:
-1. enumerate 1. enumerate□□ hogehogeはfugafugaである。 1. enumerate□□ゆえにpiyopiyo。 Out:
- enumerate
- enumerate
-hogehogeはfugafugaである。  enumerate
-ゆえにpiyopiyo。
-  キーバインド表現 In:
-&amp;lt;kbd&amp;gt;Shift&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;A&amp;lt;/kbd&amp;gt; Out:
-Shift+A
-表 Center
-In:
-Name | Age--- | ---Bob | 27Alice | 23 Out:
-   Name Age     Bob 27   Alice 23    Right</description>
+      <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく</description>
     </item>
     
     <item>
@@ -46,9 +65,7 @@ Name | Age--- | ---Bob | 27Alice | 23 Out:
       <pubDate>Wed, 20 Jun 2018 21:38:04 +0900</pubDate>
       
       <guid>https://kottn.me/dev/bash-one-liners.html</guid>
-      <description> GIF動画をPNGに分解  $ convert +adjoin foo.gif bar-%04d.png
-  分解された画像ファイル bar-0001.png, bar-0002.png &amp;hellip; が生成される
- </description>
+      <description>GIF動画をPNGに分解 $ convert +adjoin foo.gif bar-%04d.png 分解された画像ファイル bar-0001.png, bar-0002.png &amp;hellip; が生成される</description>
     </item>
     
     <item>
@@ -66,19 +83,7 @@ Name | Age--- | ---Bob | 27Alice | 23 Out:
       <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
       
       <guid>https://kottn.me/r/demo.html</guid>
-      <description>これはテスト This is the test.
-facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://kottn.me/about.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kottn.me/about.html</guid>
-      <description>kottn  東北大学 災害科学国際研究所 博士課程
-Ph.D. Student at IRIDeS, Tohoku University Interests:  CAE(CFD), and Statistical engineering for developing effective disaster prevention and mitigation system against Tsunami.
- Skills:  Fortran, GMT, POV-Ray, R, Python, TensorFlow, Keras, OpenFOAM, QGIS E-mail:     Find me on       Read More -- Education  Master of Engineering, &amp;lsquo;16  Department of Civil and Environmental Engineering,</description>
+      <description>これはテスト This is the test. facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
     </item>
     
     <item>
@@ -88,15 +93,6 @@ Ph.D. Student at IRIDeS, Tohoku University Interests:  CAE(CFD), and Statistical
       
       <guid>https://kottn.me/search.html</guid>
       <description> (function() { var cx = &#39;003631991625593988070:3jspqb_b6wi&#39;; var gcse = document.createElement(&#39;script&#39;); gcse.type = &#39;text/javascript&#39;; gcse.async = true; gcse.src = &#39;https://cse.google.com/cse.js?cx=&#39; + cx; var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(gcse, s); })();    </description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://kottn.me/tags.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kottn.me/tags.html</guid>
-      <description> </description>
     </item>
     
   </channel>

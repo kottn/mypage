@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://kottn.me/about.html</loc>
+  </url>
+  <url>
     <loc>https://kottn.me/dev/markdown-syntax.html</loc>
   </url>
   <url>
@@ -18,17 +21,8 @@
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/</loc>
-  </url>
-  <url>
-    <loc>https://kottn.me/about.html</loc>
-  </url>
-  <url>
     <loc>https://kottn.me/tags/convert.html</loc>
     <priority>0</priority>
-  </url>
-  <url>
-    <loc>https://kottn.me/search.html</loc>
   </url>
   <url>
     <loc>https://kottn.me/tags/demo.html</loc>
@@ -63,6 +57,7 @@
     <priority>0</priority>
   </url>
   <url>
-    <loc>https://kottn.me/tags.html</loc>
+    <loc>https://kottn.me/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

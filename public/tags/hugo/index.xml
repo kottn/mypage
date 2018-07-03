@@ -5,6 +5,7 @@
     <link>https://kottn.me/tags/hugo.html</link>
     <description>Recent content in Hugo on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <copyright>(ɔ) 2017 kottn.</copyright>
     <lastBuildDate>Mon, 25 Jun 2018 11:03:02 +0900</lastBuildDate>
     
@@ -17,27 +18,7 @@
       <pubDate>Mon, 25 Jun 2018 11:03:02 +0900</pubDate>
       
       <guid>https://kottn.me/dev/markdown-syntax.html</guid>
-      <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく使う「Blackfridayで使えるMarkdown記法 + $\alpha$」をメモする。
-一般的な構文 箇条書き（□は半角スペース）
-In:
-* itemize * itemize□□ hogehogeはfugafugaである。 * itemize□□ゆえにpiyopiyo。 Out:
- itemize
- itemize
-hogehogeはfugafugaである。  itemize
-ゆえにpiyopiyo。
-  In:
-1. enumerate 1. enumerate□□ hogehogeはfugafugaである。 1. enumerate□□ゆえにpiyopiyo。 Out:
- enumerate
- enumerate
-hogehogeはfugafugaである。  enumerate
-ゆえにpiyopiyo。
-  キーバインド表現 In:
-&amp;lt;kbd&amp;gt;Shift&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;A&amp;lt;/kbd&amp;gt; Out:
-Shift+A
-表 Center
-In:
-Name | Age--- | ---Bob | 27Alice | 23 Out:
-   Name Age     Bob 27   Alice 23    Right</description>
+      <description>本サイトはHugo製のためMarkdown原稿ですべて書かれている。記法はGMFではなくBlackfridayである。本稿は記事作成時によく</description>
     </item>
     
   </channel>

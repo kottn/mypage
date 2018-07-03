@@ -5,6 +5,7 @@
     <link>https://kottn.me/tags/demo.html</link>
     <description>Recent content in Demo on kottn.me</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <copyright>(ɔ) 2017 kottn.</copyright>
     <lastBuildDate>Tue, 19 Jun 2018 16:48:54 +0900</lastBuildDate>
     
@@ -17,8 +18,7 @@
       <pubDate>Tue, 19 Jun 2018 16:48:54 +0900</pubDate>
       
       <guid>https://kottn.me/r/demo.html</guid>
-      <description>これはテスト This is the test.
-facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
+      <description>これはテスト This is the test. facet_grid(facets, margins=FALSE, scales=&amp;#39;fixed&amp;#39;, space=&amp;#39;fixed&amp;#39;, shrink=TRUE, labeller=&amp;#39;label_value&amp;#39;, as.table=TRUE, switch=NULL, drop=TRUE) p1 + facet_grid(cyl ~ class) $ y = f(x) $</description>
     </item>
     
   </channel>
