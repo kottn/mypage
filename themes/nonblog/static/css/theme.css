@@ -275,6 +275,14 @@ blockquote::before {
   color: #ff7700;
 }
 
+.stack-overflow {
+  color: orange;
+}
+
+.rpubs {
+  color: blue;
+}
+
 a svg:hover {
   transform: scale(1.3);
 }
