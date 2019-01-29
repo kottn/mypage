@@ -20,4 +20,3 @@ git push origin master
 cd ..
 rm -rf ${ID}.github.io
 cd ${MYP_REPO}
-rm -rf public
