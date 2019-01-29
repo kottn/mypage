@@ -3,20 +3,28 @@
     implementation of the upstream project.
 */
 
+/*@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");*/
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+.project .logo+.name {
+    /*font-family:'Kaushan Script'; font-size: 28px;*/
+    font-family:'Press Start 2P'; font-size: 14px;
+}
+
 .drawer {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .article {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .article .data th, .article .data code, .article .data table {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.4;
 }
 
 .article pre {
+    font-size: 14px;
     padding: .5em;
     margin: .5em 0;
     line-height: 1.4;
@@ -28,7 +36,7 @@
 
 .palette-primary-teal .article h2 {
     font-weight: bold;
-    color: #E91E63;
+    color: #AD8CFF;
 }
 
 .palette-primary-teal .article code {

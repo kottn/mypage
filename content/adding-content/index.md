@@ -2,6 +2,7 @@
 title: "Python"
 date: 2019-01-25T14:15:06+09:00
 draft: true
+tag: tags
 weight: 200
 type: index
 ---

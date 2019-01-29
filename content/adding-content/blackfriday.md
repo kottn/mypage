@@ -2,6 +2,7 @@
 title: "Markdown 構文"
 date: 2018-06-25T11:03:02+09:00
 tags: ["markdown","syntax","hugo"]
+draft: false
 menu:
   main:
     parent: "Adding content"

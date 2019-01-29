@@ -27,7 +27,7 @@ googleAnalytics = "UA-121050066-1"
 	# Custom assets
 	custom_css = [
 	"img-circle.css",
-	"temporary.css"
+	"design.css"
 	]
 	custom_js  = []
 
