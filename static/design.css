@@ -36,10 +36,12 @@ pre {
     background-color: hsla(0,0%,92.8%,1);
 }
 
-/* 見出しフォント調整 */
+/* 見出し調整 */
+.article h1 {
+    padding-bottom: 28px;
+}
 .palette-primary-teal .article h1 {
     font-weight: bold;
-    text-align: center;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
 .palette-primary-teal .article h2 {

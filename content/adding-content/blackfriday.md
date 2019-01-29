@@ -6,7 +6,7 @@ draft: false
 menu:
   main:
     parent: "Adding content"
-    Identifier: "Markdown syntax"
+    Identifier: "blackfriday"
     weight: 203
 ---
 
