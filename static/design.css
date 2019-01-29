@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 .project .logo+.name {
     /*font-family:'Kaushan Script'; font-size: 28px;*/
-    font-family:'Press Start 2P'; font-size: 14px;
+    font-family:'Press Start 2P'; font-size: 15px;
 }
 
 .drawer {
