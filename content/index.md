@@ -2,14 +2,10 @@
 date: 2016-03-08T21:07:13+01:00
 title: kottn.me - Overview
 type: index
-weight: 0
+weight: 1
 ---
 
-|はじめてシリーズ|    |
-|:--:|:--:|
-|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **はじめての Torque**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)
-|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/ubuntu.jpg" width="20" height="20"> **はじめての Ubuntu**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)
-|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/ssh.png" width="20" height="20"> **はじめての ssh**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)
+![](vaporwave.jpg)
 
 ## Beautiful documentation
 

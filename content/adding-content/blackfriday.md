@@ -5,8 +5,8 @@ tags: ["markdown","syntax","hugo"]
 draft: false
 menu:
   main:
-    parent: "Adding content"
-    Identifier: "blackfriday"
+    parent: Adding content
+    Identifier: blackfriday
     weight: 203
 ---
 
