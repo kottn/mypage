@@ -1,0 +1,47 @@
+/*  This file only exists (temporarily) until the
+    custom styling can be replaced with the
+    implementation of the upstream project.
+*/
+
+.drawer {
+    font-size: 14px;
+}
+
+.article {
+    font-size: 15px;
+}
+
+.article .data th, .article .data code, .article .data table {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.article pre {
+    padding: .5em;
+    margin: .5em 0;
+    line-height: 1.4;
+}
+
+.palette-primary-teal .article h1 {
+    font-weight: bold;
+}
+
+.palette-primary-teal .article h2 {
+    font-weight: bold;
+    color: #E91E63;
+}
+
+.palette-primary-teal .article code {
+    color: #f44336;
+}
+
+pre {
+    background-color: hsla(0,0%,92.8%,1);
+}
+
+blockquote {
+    padding: 0 20px;
+    margin: 0 0 20px;
+    font-size: inherit;
+    border-left: 5px solid #eee;
+}

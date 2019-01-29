@@ -1,0 +1,3 @@
+[submodule "theme/hugo-material-docs"]
+	path = theme/hugo-material-docs
+	url = https://github.com/kottn/hugo-material-docs

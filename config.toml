@@ -1,43 +1,80 @@
-baseURL = "https://kottn.me/"
-title = "kottn.me"
-theme = "nonblog"
+baseurl = "https://kottn.me/"
 languageCode = "ja"
-hasCJKLanguage = true
-noTimes = true
-uglyURLs = true
-pygmentsCodefences = true
-pygmentsUseClasses = true
+title = "kottn.me"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
 googleAnalytics = "UA-121050066-1"
-copyright = "(ɔ) 2017 kottn."
-
-[author]
-name = "kottn"
-twitter = "@kottn_jp"
+#google_cse = "003631991625593988070:3jspqb_b6wi"
 
 [params]
-uglyURLs = true
-logo_src = "images/logo.png"
-logo_alt = "kottn"
-theme_color = "#e08010"
-google_cse = "003631991625593988070:3jspqb_b6wi"
-og_image = "https://avatars.githubusercontent.com/kottn"
+	# General information
+	author = "kottn"
+	description = "A CFD tech site."
+	copyright = "kottn."
 
-[taxonomies]
-tag = "tags"
+	# Repository
+	#provider = "GitHub"
+	#repo_url = "https://github.com/kottn"
+
+	version = ""
+	logo = "tentetenteeen.gif"
+	favicon = "me-color.gif"
+
+	permalink = "link"
+
+	# Custom assets
+	custom_css = [
+	"img-circle.css",
+	"temporary.css"
+	]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "teal"
+    	accent  = "purple"
+
+    [params.font]
+    	text = "Ubuntu" # Roboto or Ubuntu
+    	code = "Ubuntu Mono" # Roboto Mono or Ubuntu Mono
+
+
+[social]
+	twitter = "kottn_jp"
+	github  = "kottn"
+	email   = "kottn.jp@gmail.com"
 
 [[menu.main]]
-    name = "R"
-    identifier = "r"
-    weight = 10
+	name   = "Overview"
+	url    = "/"
+	weight = 0
+
 [[menu.main]]
-    name = "Python"
-    identifier = "python"
-    weight = 20
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 10
+
 [[menu.main]]
-    name = "Developer Tools"
-    identifier = "dev"
-    weight = 70
+	name   = "Adding content"
+	url    = "adding-content/"
+	weight = 20
+
 [[menu.main]]
-    name = "Tags"
-    url = "/tags.html"
-    weight = 100
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 30
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 40
+
+[blackfriday]
+	smartypants = true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
