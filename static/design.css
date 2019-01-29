@@ -3,50 +3,56 @@
     implementation of the upstream project.
 */
 
-/*@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");*/
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+/* ロゴ用フォント設定 */
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 .project .logo+.name {
-    /*font-family:'Kaushan Script'; font-size: 28px;*/
-    font-family:'Press Start 2P'; font-size: 15px;
+    font-family:'Kaushan Script'; font-size: 28px;
 }
 
+/* 左目次フォント調整 */
 .drawer {
     font-size: 13px;
 }
 
+/* 標準フォント調整 */
 .article {
     font-size: 14px;
 }
 
+/* 表フォント調整 */
 .article .data th, .article .data code, .article .data table {
     font-size: 13px;
     line-height: 1.4;
 }
 
+/* コードブロックデザイン調整 */
 .article pre {
     font-size: 14px;
     padding: .5em;
     margin: .5em 0;
     line-height: 1.4;
 }
-
-.palette-primary-teal .article h1 {
-    font-weight: bold;
+pre {
+    background-color: hsla(0,0%,92.8%,1);
 }
 
+/* 見出しフォント調整 */
+.palette-primary-teal .article h1 {
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+}
 .palette-primary-teal .article h2 {
     font-weight: bold;
     color: #AD8CFF;
 }
 
+/* コードフォント調整 */
 .palette-primary-teal .article code {
     color: #f44336;
 }
 
-pre {
-    background-color: hsla(0,0%,92.8%,1);
-}
-
+/* 引用デザイン調整 */
 blockquote {
     padding: 0 20px;
     margin: 0 0 20px;

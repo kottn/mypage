@@ -56,22 +56,22 @@ googleAnalytics = "UA-121050066-1"
 [[menu.main]]
 	name   = "Getting started"
 	url    = "getting-started/"
-	weight = 10
+	weight = 100
 
 [[menu.main]]
 	name   = "Adding content"
 	url    = "adding-content/"
-	weight = 20
+	weight = 200
 
 [[menu.main]]
 	name   = "Roadmap"
 	url    = "roadmap/"
-	weight = 30
+	weight = 300
 
 [[menu.main]]
 	name   = "License"
 	url    = "license/"
-	weight = 40
+	weight = 400
 
 [blackfriday]
 	smartypants = true

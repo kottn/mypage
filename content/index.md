@@ -5,6 +5,12 @@ type: index
 weight: 0
 ---
 
+|はじめてシリーズ|    |    |
+|:--:|:--:|:--:|
+|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **はじめての Torque**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|
+|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/ubuntu.jpg" width="20" height="20"> **はじめての Ubuntu**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|
+|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/ssh.png" width="20" height="20"> **はじめての ssh**](more-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|[<img class="img-circle" src="http://10.33.232.38/itope/logos/raw/master/torque.gif" width="20" height="20"> **Some content**](some-content)|
+
 ## Beautiful documentation
 
 Material is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
@@ -34,3 +40,4 @@ git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-mat
 Last but not least a big thank you to [Martin Donath](https://github.com/squidfunk). He created the original [Material theme](https://github.com/squidfunk/mkdocs-material) for Hugo's companion [MkDocs](http://www.mkdocs.org/). This port wouldn't be possible without him.
 
 Furthermore, thanks to [Steve Francia](https://gihub.com/spf13) for creating Hugo and the [awesome community](https://github.com/spf13/hugo/graphs/contributors) around the project.
+
