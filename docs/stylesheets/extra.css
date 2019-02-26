@@ -14,7 +14,7 @@ body {
   font-size: .7rem;
 }
 .md-typeset h1 {
-  font-weight: bold;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
 .md-typeset h2 {
   border-bottom: .1rem dotted rgba(0,0,0,.07);
