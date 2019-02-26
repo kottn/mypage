@@ -10,7 +10,7 @@
 
 # Site Overview
 
-!!! info ""
+!!! quote ""
     **更新情報**  
     ・テーマを春っぽくしました (2018.3.20)  
     ・[ABC の図を追加](https://kottn.me/about/index.html) (2017.8.20)  
