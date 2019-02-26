@@ -21,6 +21,7 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - pip:
     - click==7.0
+    - fontawesome-markdown==0.2.6
     - jinja2==2.10
     - livereload==2.6.0
     - markdown==3.0.1

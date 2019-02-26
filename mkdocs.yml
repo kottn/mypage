@@ -43,13 +43,14 @@ extra_css:
   - 'https://fonts.googleapis.com/earlyaccess/notosansjp.css'
   - 'https://fonts.googleapis.com/css?family=Open+Sans:600,800'
   - 'https://fonts.googleapis.com/css?family=Inconsolata'
+  - 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
   - 'stylesheets/extra.css'
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
 # Google Analytics
 google_analytics:
-  - 'UA-XXXXXXXX-X'
+  - 'UA-121050066-1'
   - 'auto'
 
 # Extensions
@@ -59,6 +60,7 @@ markdown_extensions:
       guess_lang: true
       linenums: false
   - footnotes
+  - fontawesome_markdown
   - meta
   - toc:
       permalink: true
@@ -66,7 +68,7 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
-#   - pymdownx.critic
+  # - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
