@@ -9,7 +9,7 @@ repo_name: 'kottn/mypage'
 repo_url: 'https://github.com/kottn/mypage'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 kottn'
+copyright: '&copy; 2018 kottn'
 
 # Configuration
 theme:
@@ -23,10 +23,8 @@ theme:
     primary: 'white'
     accent: 'red'
   font:
-    # text: 'Roboto'
-    # code: 'Roboto Mono'
-    text: 'Noto Sans JP'
-    code: 'Consolas'
+    text: 'Roboto'
+    code: 'Roboto Mono'
 
 # Customization
 extra:
@@ -38,12 +36,11 @@ extra:
       link: 'https://gitlab.com/kottn'
     - type: 'twitter'
       link: 'https://twitter.com/kottn_jp'
-  # disqus: 'kottn'
+  disqus: 'kottn'
 extra_css:
-  - 'https://fonts.googleapis.com/earlyaccess/notosansjp.css'
-  - 'https://fonts.googleapis.com/css?family=Open+Sans:600,800'
-  - 'https://fonts.googleapis.com/css?family=Inconsolata'
-  # - 'https://fonts.googleapis.com/css?family=Kaushan+Script'
+  # - 'https://fonts.googleapis.com/earlyaccess/notosansjp.css'
+  # - 'https://fonts.googleapis.com/css?family=Open+Sans:600,800'
+  # - 'https://fonts.googleapis.com/css?family=Inconsolata'
   - 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
   - 'stylesheets/color.css'
   - 'stylesheets/extra.css'
@@ -85,5 +82,4 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
 

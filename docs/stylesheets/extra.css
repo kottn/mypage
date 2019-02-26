@@ -8,7 +8,6 @@ body {
 }
 
 .md-header {
-  /* font-family:'Kaushan Script'; */
   text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
 .md-typeset {
@@ -27,7 +26,7 @@ body {
   background-color: rgba(0,0,0,.83)
 }
 
-code, kbd, pre {
-  font-family: "Consolas","Monaco","Inconsolata",monospace;
-}
+/* code, kbd, pre { */
+/*   font-family: "Consolas","Monaco","Inconsolata",monospace; */
+/* } */
 
