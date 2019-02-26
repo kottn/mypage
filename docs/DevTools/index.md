@@ -69,3 +69,12 @@ This is the ^^Caret^^.
 ### Tilde
 
 text has ~~gone~~.
+
+### Fontawesome
+
+:fa-coffee:
+
+### Define list
+
+定義
+:    foobar

@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 .md-content ul li {
-  width: 200px;
+  width: 220px;
 }
 </style>
 

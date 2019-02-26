@@ -2,19 +2,29 @@ body {
   background: url(images/spring.svg) no-repeat;
   background-size: contain;
 }
-:root {
---bg-color-spring: linear-gradient(90deg,#fffbe9,#ffeacfa8,#ffe6ed8c,#ffa7c761); 
---bg-color-summer: linear-gradient(90deg,#fffbe9,#ffeacfa8,#ffe6ed8c,#ffa7c761); 
---bg-color-autumn: linear-gradient(90deg,#fffbe9,#ffeacfa8,#ffe6ed8c,#ffa7c761); 
---bg-color-winter: linear-gradient(90deg,#fffbe9,#ffeacfa8,#ffe6ed8c,#ffa7c761); 
-}
 [data-md-color-primary=white] .md-header,
 [data-md-color-primary=white] .md-tabs {
   background: var(--bg-color-spring);
 }
 
-.md-content h2 {
-  border-bottom: .1rem solid rgba(0,0,0,.07);
+.md-header {
+  font-family:'Kaushan Script'; font-size: .8rem;
+}
+.md-typeset {
+  font-size: .7rem;
+}
+.md-typeset h1 {
+  font-weight: bold;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+}
+.md-typeset h2 {
+  border-bottom: .1rem dotted rgba(0,0,0,.07);
+}
+.md-footer-nav {
+  background-color: rgba(0,0,0,.75)
+}
+.md-footer-meta {
+  background-color: rgba(0,0,0,.83)
 }
 
 code, kbd, pre {
