@@ -5,7 +5,7 @@ DOM="kottn.me"
 msg="Updated at `date +%F-%A`"
 
 echo ""
-echo "Hey! You already done push? Check below."
+echo "Hey! Have u already done push? Check below."
 git status
 echo ""
 
