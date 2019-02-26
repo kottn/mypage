@@ -8,7 +8,7 @@ body {
 }
 
 .md-header {
-  font-family:'Kaushan Script';
+  /* font-family:'Kaushan Script'; */
   text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
 .md-typeset {
