@@ -1,22 +1,37 @@
+title: Home
+
 <style>
-.md-content ul {
+.md-typeset h1 {
+  margin-bottom: 1.5rem;
+  font-family: "MS
+}
+.md-typeset ul {
   display: flex;
   flex-wrap: wrap;
 }
-.md-content ul li {
-  width: 220px;
+.md-typeset ul li {
+  width: 200px;
+}
+.md-typeset details.quote {
+  margin-right: .9rem;
+  margin-left: .9rem;
 }
 </style>
 
-# Site Overview
+# ｋｏｔｔｎ．ｍｅ</br>（新゜雨仮ネョ░）
+<p style="padding-right:2rem; padding-left:2rem; padding-bottom:.5rem;">
+  <img class="img-center" src="images/vaporwave.gif">
+</p>
 
-!!! quote ""
-    **更新情報**  
+???+ quote "更新情報"
     ・テーマを春っぽくしました (2018.3.20)  
     ・[ABC の図を追加](https://kottn.me/about/index.html) (2017.8.20)  
     ・[C の文章を加筆](https://kottn.me/about/index.html) (2017.2.10)  
     ・[B を修正](https://kottn.me/about/index.html) (2014.7.12)  
     ・[A を更新](https://kottn.me/about/index.html) (2011.8.10)  
+
+
+## Site Overview
 
 ## Commands
 

@@ -1,5 +1,0 @@
-disqus:
-
-# About
-
-

@@ -58,6 +58,13 @@ def bubble_sort(items):
 
 ### MathJax
 
+\[3 < 4\]
+
+\begin{align}
+    p(v_i=1|\mathbf{h}) & = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\
+    p(h_j=1|\mathbf{v}) & = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}
+
 $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
 $$

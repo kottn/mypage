@@ -1,8 +1,7 @@
 /*
- * 丸枠の図を挿入したい場所で
- * <img class="img-circle" src="<URL>" width="20" height="20">
+ * 図をアイコンのように丸枠で挿入したい場合
+ * <img class="img-circle" src="<URL>" width="40" height="40">
  */
-
 .img-circle {
     border-radius: 50%;
 }
@@ -13,3 +12,11 @@
     -moz-border-radius: 20px;
 }
 
+/*
+ * 中央に図を挿入したい場合
+ * <img class="img-center" src="<URL>" width="300" height="300">
+ */
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
